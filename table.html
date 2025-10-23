@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <table border="1" width="100%">
+        <thead>
+            <tr>
+                <th>Head 1</th>
+                <th>Head 2</th>
+                <th>Head 3</th>
+                <th>Head 4</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td align="center">Cell Data 01</td>
+                <td>Cell Data 02</td>
+                <td>Cell Data 03</td>
+                <td>Cell Data 04</td>
+            </tr>
+            <tr align="center">
+                <td>Cell Data 01</td>
+                <td rowspan="2">Cell Data 02</td>
+                <td>Cell Data 03</td>
+                <td>Cell Data 04</td>
+            </tr>
+            <tr>
+                <td>Cell Data 01</td>
+                <!-- <td>Cell Data 02</td> -->
+                <td>Cell Data 03</td>
+                <td>Cell Data 04</td>
+            </tr>
+            <tr>
+                <td>Cell Data 01</td>
+                <td colspan="2">Cell Data 02</td>
+                <!-- <td>Cell Data 03</td> -->
+                <td>Cell Data 04</td>
+            </tr>
+            <tr>
+                <td>Cell Data 01</td>
+                <td>Cell Data 02</td>
+                <td>Cell Data 03</td>
+                <td>Cell Data 04</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Cell Data 01</td>
+                <!-- <td>Cell Data 02</td>
+                <td>Cell Data 03</td> -->
+                <td><b>Cell Data 04</b></td>
+            </tr>
+        </tfoot>
+    </table>
+    
+</body>
+</html>
