@@ -1,0 +1,260 @@
+#logo {
+  background-color: aqua;
+  /* /width: 100%;  */
+  height: 100px;
+}
+#brand-image {
+  /* background-color: bisque; */
+  width: 25%;
+}
+#brand-image img {
+  height: 100px;
+}
+#address {
+  width: 25%;
+  /* background-color: red; */
+  position: relative;
+  top: -99px;
+  left: 370px;
+}
+#address-icon {
+  font-size: 40px;
+}
+#address-text {
+  position: relative;
+  top: -37px;
+  left: 46px;
+}
+#mail {
+  width: 25%;
+  /* background-color: red; */
+  position: relative;
+  top: -174px;
+  left: 750px;
+}
+#mail-icon {
+  position: relative;
+  font-size: 40px;
+}
+#mail-text {
+  position: relative;
+  top: -34px;
+  left: 64px;
+}
+#button-1 {
+  position: relative;
+  top: -251px;
+  left: 1200px;
+  width: 25%;
+}
+/* navbar */
+#navbar-nav {
+  background-color: brown;
+  position: relative;
+  top: -170px;
+  font-size: 40px;
+  height: 100px;
+}
+.navlink {
+  position: relative;
+  left: 220px;
+}
+#cart {
+  position: relative;
+  top: -211px;
+  left: 1400px;
+  font-size: 30px;
+}
+#search {
+  position: relative;
+  top: -245px;
+  left: 1450px;
+  font-size: 30px;
+}
+/*  background imagde */
+#image {
+  /* background-color: aqua; */
+  position: relative;
+  top: -220px;
+  background-image: url("./images/CLouds_1367x720.jpg");
+  height: 500px;
+  background-position: center;
+}
+#image_text {
+  width: 33%;
+  position: relative;
+  top: 200px;
+  background-color: rgb(59, 59, 68);
+}
+
+/* next goals */
+#goal{
+  height: 800px;
+}
+#goals-1 {
+  /* background-color: aqua; */
+  position: relative;
+  top: -216px;
+  width: 25%;
+  text-align: center;
+  height: 170px;
+}
+#logo-goal-1 {
+  font-size: 50px;
+}
+#goals-2 {
+  /* background-color: aqua; */
+  position: relative;
+  top: -378px;
+  left: 367px;
+  width: 25%;
+  text-align: center;
+}
+#logo-goal-2 {
+  font-size: 50px;
+}
+#goals-3 {
+  /* background-color: aqua; */
+  position: relative;
+  top: -548px;
+  left: 744px;
+  width: 25%;
+  text-align: center;
+}
+#logo-goal-3 {
+  font-size: 50px;
+}
+#goals-4 {
+  /* background-color: aqua; */
+  position: relative;
+  top: -734px;
+  left: 1131px;
+  width: 25%;
+  text-align: center;
+}
+#logo-goal-4 {
+  font-size: 50px;
+}
+/* about company content image */
+#about-company {
+  height: 900px;
+
+  position: relative;
+  top: -700px;
+  /* text-align: center; */
+  left: 100px;
+}
+#about-company-image {
+  background-color: aqua;
+  width: 37%;
+}
+#about-company-image img {
+  height: 500px;
+}
+#about-company-content {
+  text-align: center;
+  width: 40%;
+  position: relative;
+  top: -400px;
+  left: 609px;
+}
+#about-company-1 {
+  position: relative;
+  top: -281px;
+  left: 700px;
+}
+#about-company-logo {
+  font-size: 60px;
+}
+#about-company-2 {
+  position: relative;
+  top: -341px;
+  left: 900px;
+}
+#about-company-logo1 {
+  font-size: 60px;
+}
+#about-company-3 {
+  position: relative;
+  top: -402px;
+  left: 1100px;
+}
+#about-company-logo2 {
+  font-size: 60px;
+}
+/* backgroun dumab */
+#background-image-2 {
+  height: 500px;
+  position: relative;
+  top: -949px;
+  background-image: url("./images/CLouds_640x480.jpg");
+  width: 100%;
+}
+#background-image-2-content {
+  position: relative;
+  top: 200px;
+  text-align: center;
+  background-position: center;
+  color: aliceblue;
+}
+
+/* services */
+#our-services {
+  background-color: aqua;
+  position: relative;
+}
+.text-center {
+  text-align: center;
+}
+.our-services-card{
+  width: 33%;
+  position: relative;
+  height: 120px;
+}
+.our-services-card-img{
+  width: 30%;
+}
+.img-100{
+  width: 100%;
+}
+
+#our-services-1{
+  background-color: red;
+  /* width: 33%;
+  position: relative;
+  height: 120px; */
+}
+#our-services-img-1{
+width: 30%;
+}
+/* #our-services-img-1 img {
+  width: 100%;
+} */
+#our-services-content-1 {
+  width: 70%;
+  background-color: aquamarine;
+  position: relative;
+  left: 30%;
+  top: -135px;
+}
+#our-services-2{
+  background-color: green;
+  /* width: 33%;
+  position: relative;
+  height: 120px; */
+  top: -120px;
+  left: 30%;  
+}
+#our-services-img-2{
+width: 30%;
+}
+/* #our-services-img-2 img {
+  width: 100%;
+} */
+#our-services-content-2 {
+  width: 70%;
+  background-color: aquamarine;
+  position: relative;
+  left: 30%;
+  top: -135px;
+}

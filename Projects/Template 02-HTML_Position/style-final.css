@@ -1,0 +1,162 @@
+body {
+  margin: 0;
+}
+
+.position-relative {
+  position: relative;
+}
+
+/* Navbar */
+#navbar {
+  height: 100px;
+}
+#logo-image {
+  width: 100px;
+  height: 100px;
+}
+#navbar-nav {
+  width: 600px;
+  /* position: relative; */
+  top: -60px;
+  left: 780px;
+}
+.nav-link {
+  font-size: 28px;
+}
+
+/* Banner */
+#banner {
+  background-color: brown;
+  height: 410px;
+}
+#banner-div-1 {
+  width: 50%;
+}
+#banner-div-1 img {
+  width: 100%;
+}
+#banner-div-2 {
+  width: 25%;
+  /* position: relative; */
+  top: -300px;
+  left: 50%;
+}
+#banner-div-3 {
+  width: 25%;
+  position: relative;
+  top: -550px;
+  left: 75%;
+}
+#banner-div-3 img {
+  width: 100%;
+}
+
+/* Banner-1 */
+#banner1 {
+  background-color: #8adeff;
+  background-image: url("./images/CLouds_1367x720.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: color-burn;
+
+  height: 800px;
+}
+
+#banner2 {
+  background-image: url("./images/Woodpecker_1367x720.jpg");
+  color: transparent;
+  background-clip: text;
+  font-size: 90px;
+  text-align: center;
+}
+
+/* about us */
+#about-us {
+  /* background-color: aquamarine; */
+  height: 550px;
+}
+#about-us-heading {
+  background-image: url("./images/Woodpecker_1367x720.jpg");
+  color: transparent;
+  background-clip: text;
+  font-size: 90px;
+  text-align: center;
+}
+#about-div1 {
+  width: 33%;
+}
+#about-div1 img {
+  width: 100%;
+}
+#about-div2 {
+  width: 33%;
+  position: relative;
+  top: -271px;
+  left: 507px;
+}
+#about-div2 img {
+  width: 100%;
+}
+
+#about-div3 {
+  width: 33%;
+  position: relative;
+  top: -630px;
+  left: 66%;
+}
+
+#about-div3 img {
+  width: 100%;
+}
+/* Services   */
+#services {
+  /* background-color: aqua; */
+  height: 550px;
+}
+#services-heading {
+  text-align: center;
+}
+#services-1 {
+  width: 25%;
+  position: relative;
+}
+
+#services-1 img {
+  width: 100%;
+}
+#services-2 {
+  width: 25%;
+  position: relative;
+  top: -462px;
+  left: 385px;
+}
+#services-2 img {
+  width: 100%;
+}
+#services-3 {
+  width: 25%;
+  position: relative;
+  top: -923px;
+  left: 769px;
+}
+#services-3 img {
+  width: 100%;
+}
+#services-4 {
+  width: 25%;
+  position: relative;
+  top: -1384px;
+  left: 1153px;
+}
+#services-4 img {
+  width: 100%;
+}
+/* Contact-us */
+#contact-us{
+  text-align: center;
+  /* background-color: violet; */
+}
+#form{
+  text-align: center;
+}
