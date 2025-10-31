@@ -1,0 +1,36 @@
+#div1{
+    width: 300px;
+    height: 300px;
+    background-color: bisque;
+
+    /* border-style: solid;*/ /*dotted, dashed, double, none*/
+    /* border-width: 5px; */
+    /* border-color: aquamarine; */
+
+    border: solid 5px aqua;
+    /* border-radius: 20px; */
+    border-radius: 100%;
+
+    box-shadow: 15px 25px 90px 40px black;
+}
+
+#div2{
+    width: 300px;
+    height: 300px;
+    background-color: bisque;
+
+    border-left: dashed 5px black;
+    border-top: dotted 5px red;
+    border-right: double 5px green;
+    border-bottom: solid 5px yellow ;
+
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+#div2 img{
+    width: 100%;
+    border-top-right-radius: 90%;
+}

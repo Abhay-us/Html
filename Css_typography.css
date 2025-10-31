@@ -1,0 +1,44 @@
+#head1{
+    font-size: 67px;
+    text-align: center; /* left, right, center, justify */
+    /* color:darkorange; */
+    color: bisque;
+
+    background-color: bisque;
+
+    font-family: "Arimo", monospace, sans-serif;
+    font-weight: 900;
+    /* font-style: oblique; */
+    /* font-style: italic; */
+
+    font-variant: small-caps;
+
+    letter-spacing: 3px;
+    word-spacing: 50px;
+
+    /* text-decoration: underline; */
+    /* text-decoration: overline; */
+    /* text-decoration: line-through; */
+
+    text-decoration-color: red;
+    text-transform: capitalize;
+
+    -webkit-text-stroke: 3px red;
+
+    text-shadow: 1px 3px 0px black;
+
+}
+
+p{
+    text-align: left;
+    /* word-break: break-all; */
+    line-height: 18px;
+    text-transform: none;
+    /* text-transform: capitalize; */
+    /* text-transform: uppercase; */
+    /* text-transform: lowercase; */
+
+    text-indent: 23px;
+    text-overflow: ellipsis; /*clip*/
+
+}
