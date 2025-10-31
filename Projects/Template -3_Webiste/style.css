@@ -12,7 +12,7 @@
 }
 #address {
   width: 25%;
-  /* background-color: red; */
+  /* background-color: red;   */
   position: relative;
   top: -99px;
   left: 370px;
@@ -51,29 +51,43 @@
 #navbar-nav {
   background-color: brown;
   position: relative;
-  top: -170px;
+  top: -200px;
   font-size: 40px;
   height: 100px;
+}
+.icon-size {
+  font-size: 30px;
 }
 .navlink {
   position: relative;
   left: 220px;
 }
 #cart {
+  /* background-color: black; */
+  width: 3%;
   position: relative;
-  top: -211px;
+  top: -45px;
   left: 1400px;
-  font-size: 30px;
+  /* font-size: 30px;*/
+}
+#cart-icon {
+  width: 100%;
 }
 #search {
+  width: 3%;
+  /* background-color: blueviolet; */
   position: relative;
-  top: -245px;
+  top: -95px;
   left: 1450px;
   font-size: 30px;
 }
+#search-icon {
+  font-size: 50px;
+}
+
 /*  background imagde */
 #image {
-  /* background-color: aqua; */
+  background-color: aqua;
   position: relative;
   top: -220px;
   background-image: url("./images/CLouds_1367x720.jpg");
@@ -88,7 +102,7 @@
 }
 
 /* next goals */
-#goal{
+#goal {
   height: 800px;
 }
 #goals-1 {
@@ -105,19 +119,20 @@
 #goals-2 {
   /* background-color: aqua; */
   position: relative;
-  top: -378px;
-  left: 367px;
+  top: -388px;
+  left: 390px;
   width: 25%;
   text-align: center;
 }
 #logo-goal-2 {
+  /* background-color: brown; */
   font-size: 50px;
 }
 #goals-3 {
-  /* background-color: aqua; */
+  /* background-color: aqua;  */
   position: relative;
   top: -548px;
-  left: 744px;
+  left: 784px;
   width: 25%;
   text-align: center;
 }
@@ -128,7 +143,7 @@
   /* background-color: aqua; */
   position: relative;
   top: -734px;
-  left: 1131px;
+  left: 1161px;
   width: 25%;
   text-align: center;
 }
@@ -137,47 +152,60 @@
 }
 /* about company content image */
 #about-company {
-  height: 900px;
+  /* background-color: aqua; */
+  height: 505px;
 
   position: relative;
   top: -700px;
   /* text-align: center; */
-  left: 100px;
+  left: 0px;
 }
 #about-company-image {
-  background-color: aqua;
-  width: 37%;
+  /* background-color: rgb(167, 112, 61); */
+  width: 50%;
+  position: relative;
+  left: 0%;
 }
 #about-company-image img {
   height: 500px;
+  width: 100%;
 }
 #about-company-content {
+  /* background-color: blueviolet; */
   text-align: center;
-  width: 40%;
+  width: 50%;
   position: relative;
   top: -400px;
-  left: 609px;
+  left: 759px;
 }
 #about-company-1 {
+  /* background-color: red; */
+  width: 5%;
   position: relative;
   top: -281px;
-  left: 700px;
+  left: 900px;
 }
 #about-company-logo {
   font-size: 60px;
 }
 #about-company-2 {
+  /* background-color: blue; */
+  width: 5%;
+
   position: relative;
   top: -341px;
-  left: 900px;
+  left: 1100px;
 }
 #about-company-logo1 {
   font-size: 60px;
 }
 #about-company-3 {
+  /* background-color: bisque; */
+  width: 5%;
+
   position: relative;
   top: -402px;
-  left: 1100px;
+  left: 1300px;
 }
 #about-company-logo2 {
   font-size: 60px;
@@ -186,11 +214,12 @@
 #background-image-2 {
   height: 500px;
   position: relative;
-  top: -949px;
+  top: -649px;
   background-image: url("./images/CLouds_640x480.jpg");
   width: 100%;
 }
 #background-image-2-content {
+  /* background-color: aqua      ; */
   position: relative;
   top: 200px;
   text-align: center;
@@ -202,30 +231,31 @@
 #our-services {
   background-color: aqua;
   position: relative;
+  top: -650px;
 }
 .text-center {
   text-align: center;
 }
-.our-services-card{
+.our-services-card {
   width: 33%;
   position: relative;
   height: 120px;
 }
-.our-services-card-img{
+.our-services-card-img {
   width: 30%;
 }
-.img-100{
+.img-100 {
   width: 100%;
 }
 
-#our-services-1{
+#our-services-1 {
   background-color: red;
   /* width: 33%;
   position: relative;
   height: 120px; */
 }
-#our-services-img-1{
-width: 30%;
+#our-services-img-1 {
+  width: 30%;
 }
 /* #our-services-img-1 img {
   width: 100%;
@@ -237,16 +267,16 @@ width: 30%;
   left: 30%;
   top: -135px;
 }
-#our-services-2{
+#our-services-2 {
   background-color: green;
   /* width: 33%;
   position: relative;
   height: 120px; */
   top: -120px;
-  left: 30%;  
+  left: 33%;
 }
-#our-services-img-2{
-width: 30%;
+#our-services-img-2 {
+  width: 30%;
 }
 /* #our-services-img-2 img {
   width: 100%;
@@ -257,4 +287,10 @@ width: 30%;
   position: relative;
   left: 30%;
   top: -135px;
+}
+#our-services-3 {
+  background-color: yellow;
+  position: relative;
+  top: -240px;
+  left: 66%;
 }
