@@ -229,9 +229,10 @@
 
 /* services */
 #our-services {
-  background-color: aqua;
+  /* background-color: aqua; */
   position: relative;
   top: -650px;
+  height: 350px;
 }
 .text-center {
   text-align: center;
@@ -249,7 +250,7 @@
 }
 
 #our-services-1 {
-  background-color: red;
+  /* background-color: red; */
   /* width: 33%;
   position: relative;
   height: 120px; */
@@ -262,13 +263,13 @@
 } */
 #our-services-content-1 {
   width: 70%;
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
   position: relative;
   left: 30%;
   top: -135px;
 }
 #our-services-2 {
-  background-color: green;
+  /* background-color: green; */
   /* width: 33%;
   position: relative;
   height: 120px; */
@@ -278,19 +279,339 @@
 #our-services-img-2 {
   width: 30%;
 }
-/* #our-services-img-2 img {
-  width: 100%;
-} */
+
 #our-services-content-2 {
   width: 70%;
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
   position: relative;
   left: 30%;
   top: -135px;
 }
 #our-services-3 {
-  background-color: yellow;
+  /* background-color: yellow; */
   position: relative;
   top: -240px;
   left: 66%;
+}
+#our-services-content-3 {
+  width: 70%;
+  /* background-color: bisque; */
+  position: relative;
+  top: -135px;
+  left: 150px;
+}
+#our-services-4 {
+  /* background-color: yellow; */
+  position: relative;
+  top: -240px;
+  left: 0px;
+}
+#our-services-content-4 {
+  width: 70%;
+  /* background-color: bisque; */
+  position: relative;
+  top: -135px;
+  left: 150px;
+}
+#our-services-5 {
+  /* background-color: yellow; */
+  position: relative;
+  top: -360px;
+  left: 502px;
+}
+#our-services-content-5 {
+  width: 70%;
+  /* background-color: bisque; */
+  position: relative;
+  top: -135px;
+  left: 150px;
+}
+#our-services-6 {
+  /* background-color: yellow; */
+  position: relative;
+  top: -480px;
+  left: 1005px;
+}
+#our-services-content-6 {
+  width: 70%;
+  /* background-color: bisque; */
+  position: relative;
+  top: -135px;
+  left: 150px;
+}
+
+/* support mail */
+#support-mail {
+  /* background-color: aqua; */
+  font-size: 50px;
+  text-align: center;
+  position: relative;
+  top: -650px;
+}
+
+/* background image 3 */
+#background-image-3 {
+  background-color: aqua;
+  position: relative;
+  top: -620px;
+  background-image: url("./images/CLouds_1920x1080.jpg");
+  height: 500px;
+  background-position: center;
+}
+#background-image-3-content {
+  /* background-color:chartreuse; */
+  width: 33%;
+  position: relative;
+  top: 200px;
+  left: 200px;
+  text-align: center;
+  font-size: 20px;
+  color: black;
+  background-color: aliceblue;
+}
+
+/*our team  */
+#our-team {
+  /* background-color: rgb(79, 79, 186); */
+  position: relative;
+  top: -600px;
+  height: 870px;
+}
+#our-team-content {
+  text-align: center;
+}
+.our-team-card-img {
+  width: 25%;
+  position: relative;
+  height: 300px;
+}
+.img-our-goal {
+  width: 100%;
+}
+.span-text-team {
+  text-align: center;
+  font-size: 40px;
+}
+.p-our-team {
+  text-align: center;
+  font-size: 30px;
+  position: relative;
+  top: -90px;
+}
+#our-team-2 {
+  position: relative;
+  top: -300px;
+  left: 380px;
+}
+#our-team-3 {
+  position: relative;
+  top: -600px;
+  left: 760px;
+}
+#our-team-4 {
+  position: relative;
+  top: -900px;
+  left: 1140px;
+}
+#icon-our-team {
+  font-size: 30px;
+  text-align: center;
+}
+
+/* commapmhy sucess */
+#company-success {
+  /* background-color: aqua; */
+  height: 600px;
+  position: relative;
+  top: -450px;
+}
+#com-succ-1 {
+  /* /background-color: antiquewhite; */
+  text-align: center;
+  font-size: 30px;
+}
+#com-succ-2 {
+  text-align: center;
+  font-size: 60px;
+}
+.com-success-card {
+  font-size: 60px;
+  /* background-color: pink; */
+  width: 25%;
+}
+.p-com-succ-card {
+  font-size: 20px;
+}
+#com-succ-4 {
+  position: relative;
+  left: 15%;
+}
+#com-succ-5 {
+  position: relative;
+  top: -133px;
+  left: 35%;
+}
+#com-succ-6 {
+  position: relative;
+  top: -265px;
+  left: 60%;
+}
+#com-succ-7 {
+  /* background-color: aquamarine; */
+  position: relative;
+  top: -400px;
+  left: 79%;
+  width: 20%;
+}
+.button-success {
+  position: relative;
+  top: -350px;
+  text-align: center;
+}
+#button {
+  font-size: 20px;
+  height: 50px;
+  width: 200px;
+  background-color: brown;
+}
+/* cpnsult */
+#consult {
+  /* background-color: aqua; */
+  position: relative;
+  top: -450px;
+  height: 800px;
+}
+#h1-consult {
+  text-align: center;
+}
+#image-consult {
+  /* background-color: blueviolet; */
+  width: 50%;
+}
+#image-consult img {
+  width: 100%;
+  height: 600px;
+}
+#form-consult {
+  /* background-color: blueviolet; */
+  position: relative;
+  top: -550px;
+  left: 50%;
+  width: 50%;
+}
+#table-1 {
+  height: 500px;
+  position: relative;
+  width: 100%;
+}
+#button-2 {
+  height: 50px;
+  width: 100px;
+}
+
+/* <ending row> */
+#end {
+  background-color: #001648;
+  height: 300px;
+  position: relative;
+  top: -500px;
+  color: azure;
+}
+#about-consultuing {
+  /* background-color: aqua; */
+  height: 200px;
+  /* color: azure; */
+  width: 30%;
+}
+#about-consut-icon {
+  font-size: 30px;
+}
+#about-cons-end {
+  position: relative;
+  top: -55px;
+  left: 50px;
+  font-size: 20px;
+}
+#recent-post {
+  /* background-color: red; */
+  position: relative;
+  left: 500px;
+  top: -220px;
+  width: 300px;
+}
+
+#recent-post-img1 {
+  /* background-color: lightgreen; */
+  height: 250px;
+  width: 100%;
+  /* position: relative;
+  top: -240px;
+  left: 500px; */
+}
+#recent-post-img1 img {
+  width: 40%;
+  height: 50%;
+}
+#recent-post-img1 h4 {
+  position: relative;
+  top: -80px;
+  left: 45%;
+  width: 60%;
+}
+#img-2-recent-post {
+  position: relative;
+  top: -100px;
+}
+#recent-post-img-content-2 {
+  position: relative;
+  top: -220px;
+  left: 45%;
+  width: 50%;
+}
+#sol {
+  /* background-color: brown;   */
+  height: 350px;
+  width: 25%;
+  position: relative;
+  top: -590px;
+  left: 800px;
+}
+#sol-content {
+  font-size: 40px;
+  /* text-align: left; */
+}
+#sol-list {
+  text-align: left;
+  font-size: 20px;
+  position: relative;
+  top: -40px;
+}
+#form-2 {
+  /* background-color: aqua; */
+  width: 25%;
+  height: 230px;
+  position: relative;
+  top: -1000px;
+  left: 75%;
+}
+#form-2-heading {
+  /* background-color: blueviolet; */
+  font-size: 40px;
+}
+/* copyrights */
+#copyrights {
+  background-color: #001648;
+  color: aliceblue;
+  position: relative;
+  top: -500px;
+  height: 100px;
+}
+#copyrights-content {
+  /* background-color: aquamarine; */
+  width: 30%;
+  color: white;
+  position: relative;
+  top: -30px;
+  left: 70%;
+  font-size: 20px;
 }
