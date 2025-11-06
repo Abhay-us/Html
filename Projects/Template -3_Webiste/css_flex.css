@@ -1,0 +1,59 @@
+div {
+  border: solid 1px;
+  padding: 10px;
+  /* margin: 5px; */
+}
+
+.flex-box-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* left right center space-between space-evenly space-around*/
+    align-items: center; /* center baseline flex-start flex-end start end first-baseline last-baseline */
+    gap: 20px 40px;
+    flex-wrap: wrap;
+}
+.box-1 {
+  width: 200px;
+  /* height: 100px; */
+  background-color: aqua;
+
+  /* display: inline-block;
+  vertical-align: middle; */
+}
+.box-1-2 {
+  background-color: orange;
+  /* height: 200px; */
+  /* order: 3; */
+}
+.box-1-3 {
+  background-color: grey;
+  /* height: 250px; */
+  /* order: 1; */
+}
+.box-1-4 {
+  background-color: red;
+  /* order: 2; */
+}
+
+.contact-card{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: end;
+}
+.contact-bar-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.contact-bar-item > i{
+    font-size: 30px;
+    margin-right: 10px;
+}
+.contact-bar-item > p > span{
+    display: block;
+}
+.contact-bar-item > p > .contact-address-heading{
+    font-size: 24px;
+    font-weight: 800;
+}

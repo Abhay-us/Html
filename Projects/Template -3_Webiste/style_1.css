@@ -1,0 +1,158 @@
+div {
+  border: solid 1px;
+  padding: 10px;
+  margin: 5px;
+}
+#navigation-bar {
+  /* height: 500px; */
+}
+.nav1 {
+  height: 130px;
+}
+.brand-logo {
+  width: 100px;
+  height: 60px;
+}
+.contact-bar {
+  width: 850px;
+  height: 100px;
+  position: relative;
+  top: -60px;
+  left: 550px;
+}
+.contact-bar-item {
+  width: 300px;
+  height: 60px;
+  display: inline-block;
+}
+.contact-bar-item-3 {
+  width: 200px;
+}
+#address-icon {
+  font-size: 50px;
+}
+.contact-address {
+  position: relative;
+  top: -70px;
+  left: 70px;
+  font-size: 20px;
+}
+#email-icon {
+  font-size: 50px;
+}
+.contact-email {
+  position: relative;
+  top: -70px;
+  left: 70px;
+  font-size: 20px;
+}
+.contact-bar-item-3 {
+  position: relative;
+  top: -130px;
+  left: 670px;
+  width: 160px;
+  height: 50px;
+}
+.contact-bar-button {
+  width: 100%;
+  height: 100%;
+}
+.nav2 {
+  height: 50px;
+}
+#nav-2-heading {
+  width: 60%;
+}
+.nav2-social-icons {
+  width: 20%;
+  position: relative;
+  top: -45px;
+  left: 1100px;
+}
+.nav2-icon4 {
+  position: relative;
+  left: 140px;
+}
+
+.nav2-icon5 {
+  position: relative;
+  left: 150px;
+}
+/* goal */
+#goal {
+  height: 210px;
+}
+.goal-class {
+  text-align: center;
+  width: 20%;
+}
+#goals-2 {
+  position: relative;
+  top: -197px;
+  left: 25%;
+}
+#goals-3 {
+  position: relative;
+  top: -389px;
+  left: 50%;
+}
+#goals-4 {
+  position: relative;
+  top: -585px;
+  left: 75%;
+}
+/* our services */
+#our-services {
+  /* text-align: center; */
+  height: 700px;
+}
+#our-service-heading {
+  text-align: center;
+}
+#our-services-main {
+  height: 500px;
+}
+.our-services-card {
+  width: 30%;
+  height: 200px;
+}
+.our-services-card-img {
+  height: 150px;
+  width: 30%;
+}
+.img-100 {
+  width: 100%;
+  height: 100%;
+}
+.our-services-content {
+  width: 60%;
+  position: relative;
+  top: -150px;
+  left: 35%;
+}
+#our-services-2{
+  position: relative;
+  top: -225px;
+  left: 35%;
+}
+#our-services-3{
+  position: relative;
+  top: -450px;
+  left: 67%;
+}
+#our-services-4{
+  position: relative;
+  top: -450px;
+  /* left: 67%; */
+}
+#our-services-5{
+  position: relative;
+  top: -675px;
+  left: 35%;
+}
+#our-services-6{
+  position: relative;
+  top: -900px;
+  left: 67%;
+}
+
