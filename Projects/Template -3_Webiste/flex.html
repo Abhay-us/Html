@@ -322,51 +322,52 @@
         </div>
         <div class="image-consult">
             <img src="/images/consult.jpg" alt="sds">
-            <div id="form-consult">
-                <form>
-                    <table id="table-1" border="13">
-                        <tr>
-                            <td>
-                                <label for="name">Name:-</label>
-                            </td>
-                            <td>
-                                <input type="text" name="myfirstname" placeholder="Enter First Name" id="firstname">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <label for="phonenumber">Phone Number</label>
-                            </td>
-                            <td>
-                                <input type="text" name="mynumber" placeholder="enter number" id="num-1" />
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <label for="email">Email</label>
-                            </td>
-                            <td> <input type="email" name="myemail" placeholder="enter email " id="email"></td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <label for="message">Message</label>
+            <div class="container">
+                <div class="card">
+                    <form method="GET">
+                        <div class="row">
+                            <div class="col col-1">
+                                <label for="name" class="form-label">Name:-</label>
+                                <input type="text" name="myfirstname" placeholder="Name *" id="firstname"
+                                    class="input-field">
+                            </div>
+                            <div class="col col-2">
+                                <label for="phonenumber" class="form-label">Phone Number</label>
+                                <input type="text" name="mynumber" placeholder="Phone *" id="num-1" class="input-field">
+                            </div>
+                        </div>
 
-                            </td>
-                            <td>
-                                <input type="text" name="mymess" id="mess-1" placeholder="enter message" />
+                        <div class="row">
+                            <div class="col col-1">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" name="myemail" placeholder="enter email " id="email"
+                                    class="input-field">
+                            </div>
+                            <div class="col col-2">
+                                <label for="phonenumber" class="form-label">Services You're doing weel.</label>
+                                <select name="nyservices" id="services-1" class="input-field">
+                                    <option value="0">Services you're Looking For!</option>
+                                    <option value="1">Services Option 1</option>
+                                    <option value="2">Services Option 2</option>
+                                    <option value="3">Services Option 3</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3">
+                                <!-- <label for="message">Message</label> -->
+                                <textarea name="message" id="mmwssanger" placeholder="Messages"></textarea>
+                            </div>
+                        </div>
 
-                            </td>
-                        </tr>
+                        <input id="button-2" type="button" value="Submit button" class="btn">
 
-                        <tr>
-                            <td>
-                                <input id="button-2" type="button" value="Submit button">
-                            </td>
-                        </tr>
-                    </table>
-                </form>
+                    </form>
+                </div>
             </div>
+
         </div>
+    </div>
     </div>
 
     <!-- end -->

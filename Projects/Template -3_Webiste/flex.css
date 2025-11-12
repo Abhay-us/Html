@@ -192,7 +192,7 @@
   display: flex;
   /* margin-right: 10px; */
 }
-.our-services-card-img{
+.our-services-card-img {
   padding-right: 20px;
 }
 #contact {
@@ -256,7 +256,7 @@
 .our-team-card-img {
   text-align: center;
 }
-.icon-our-team > p{
+.icon-our-team > p {
   width: 210px;
 }
 /* COMPANY SUCCESS */
@@ -298,25 +298,79 @@
   color: aliceblue;
 }
 /* <!-- consult --> */
+
 #content-consult {
   text-align: center;
   padding: 100px;
   padding-bottom: 50px;
   font-size: 20px;
 }
-.image-consult > img {
-  width: 500px;
-  height: 400px;
-}
 .image-consult {
   display: flex;
   flex-direction: row;
-  /* justify-content: space-evenly; */
-  padding: 0px 350px;
+  justify-content: center;
+
+  margin: 20px 20px 20px 20px;
 }
-#table-1 {
-  height: 380px;
-  padding: 0px 0px;
+/* .image-consult > img {
+  width: 500px;
+  height: 500px;
+} */
+
+.container {
+  /* width: 100vw;
+  height: 100vh; */
+  display: flex;
+  justify-content: center;
+  /* align-items: center;   */
+}
+.card {
+  padding: 75px 40px 0 40px;
+  width: 35vw;
+  box-shadow: 0px 0px 20px 5px #606060b0;
+  justify-content: center;
+  align-items: center;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.col {
+  width: 50%;
+  /* border: solid 1px ; */
+  /* padding: 10px 15px; */
+  padding-bottom: 15px;
+}
+.form-label {
+  display: none;
+}
+.input-field {
+  width: 100%;
+  padding: 0 0 10px 0;
+  border: none;
+  border-bottom: solid 2px #5e5e5e;
+  outline: none;
+  font-size: 16px;
+  background-color: white;
+}
+.col-3 {
+  width: 100%;
+}
+.col-3 > textarea {
+  width: 100%;
+  resize: none;
+  height: 100px;
+  border: none;
+  border-bottom: solid 2px #5e5e5e;
+  outline: none;
+}
+.btn {
+  padding: 12px 20px;
+  margin-top: 20px;
+  background-color: #02023e;
+  color: white;
+  border: none;
 }
 /* <!-- end --> */
 #end {
@@ -324,15 +378,15 @@
   justify-content: space-evenly;
   background-color: #001648;
   color: aliceblue;
+  margin-top: 100px;
 }
 #about-consultuing {
   width: 25%;
   font-size: 15px;
   margin-top: 5px;
 }
-#about-consultuing > p{
-font-size: 20px;
-
+#about-consultuing > p {
+  font-size: 20px;
 }
 #recent-post-img1 {
   display: flex;
@@ -350,19 +404,18 @@ font-size: 20px;
   display: flex;
   height: 100px;
 }
-#sol-list{
+#sol-list {
   font-size: 20px;
 }
-#form-2-content{
-  font-size:20px ;
+#form-2-content {
+  font-size: 20px;
 }
-#end-button > button{
+#end-button > button {
   font-size: 20px;
   width: 150px;
   height: 50px;
   margin-top: 70px;
 }
-
 
 /* copyrights */
 #copyrights {

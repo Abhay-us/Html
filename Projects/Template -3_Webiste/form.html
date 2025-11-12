@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+        <div class="container">
+        <div class="card">
+            <form method="GET">
+                <div class="row">
+                    <div class="col col-1">
+                        <label for="name" class="form-label">Name:-</label>
+                        <input type="text" name="myfirstname" placeholder="Name *" id="firstname" class="input-field">
+                    </div>
+                    <div class="col col-2">
+                        <label for="phonenumber" class="form-label">Phone Number</label>
+                        <input type="text" name="mynumber" placeholder="Phone *" id="num-1" class="input-field">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col col-1">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" name="myemail" placeholder="enter email " id="email" class="input-field">
+                    </div>
+                    <div class="col col-2">
+                        <label for="phonenumber" class="form-label">Services You're doing weel.</label>
+                        <select name="nyservices" id="services-1" class="input-field">
+                            <option value="0">Services you're Looking For!</option>
+                            <option value="1">Services Option 1</option>
+                            <option value="2">Services Option 2</option>
+                            <option value="3">Services Option 3</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-3">
+                        <!-- <label for="message">Message</label> -->
+                        <textarea name="message" id="mmwssanger" placeholder="Messages"></textarea>
+                    </div>
+                </div>
+
+                <input id="button-2" type="button" value="Submit button" class="btn">
+
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

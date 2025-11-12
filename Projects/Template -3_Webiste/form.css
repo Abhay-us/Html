@@ -1,0 +1,54 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    padding: 20px;
+    width: 35vw;
+    box-shadow: 0px 0px 20px 5px #606060b0;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.col{
+    width: 50%;
+    /* border: solid 1px ; */
+    /* padding: 10px 15px; */
+    padding-bottom: 15px;
+}
+.form-label{
+    display: none;
+}
+.input-field{
+    width: 100%;
+    padding: 0 0 10px 0;
+    border: none;
+    border-bottom: solid 2px #5e5e5e;
+    outline: none;
+    font-size: 16px;
+    background-color: white;
+}
+.col-3{
+    width: 100%;;
+}
+.col-3 > textarea{
+    width: 100%;
+    resize: none;
+    height: 100px;
+    border: none;
+    border-bottom: solid 2px #5e5e5e;
+    outline: none;
+
+}
+.btn{
+    padding: 12px 20px;
+    margin-top: 20px;
+    background-color: #02023e;
+    color: white;
+    border: none;
+}
