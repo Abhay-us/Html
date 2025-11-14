@@ -1,0 +1,204 @@
+@media (min-width: 300px) and (max-width: 640px) {
+  #logo {
+    flex-direction: column;
+    align-items: center;
+  }
+  #logo > img {
+    width: 200px;
+    height: 60px;
+  }
+  .contact-bar {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    display: none;
+  }
+  .contact-bar-item > p {
+    margin: 4px;
+  }
+
+  #nav-1 {
+    flex-direction: column;
+    padding: 10px;
+  }
+  #nav-1-heading {
+    margin: 0px;
+  }
+  #nav-1-heading > a {
+    margin: 8px;
+    font-size: 14px;
+  }
+  #navbar-icon {
+    display: none;
+  }
+
+  /* Banner Responsive */
+  #banner {
+    background-size: 150% 120%;
+    background-position: -60px 0px;
+    flex-direction: column;
+    padding: 60px 0 0 0;
+  }
+  #banner-content > h1 {
+    font-size: 40px;
+    color: #000f32;
+  }
+
+  /*  goal  */
+  #goal {
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+  }
+  .goal-class {
+    /* height: 600px; */
+    /* font-size: 0px; */
+    padding: 5px 0px;
+  }
+
+  /* about company */
+  #about-company {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* justify-content: space-evenly; */
+  }
+  #about-company-image > img {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 15px;
+  }
+  #about-company-content h1 {
+    font-size: 16px;
+    margin: 15px 0px 0px 0px;
+  }
+  #about-company-content-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    width: 200px;
+  }
+  #about-company-content-icons {
+    font-size: 25px;
+    gap: 10px;
+  }
+
+  /* <!-- banner --> */
+
+  #background-image-2-content {
+    font-size: 15px;
+    text-align: center;
+  }
+  #background-image-2-button button {
+    margin: 30px 0 0 0;
+  }
+  /* our services */
+  #our-services {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: 0 0 0 0;
+  }
+  .our-services-card-1-2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 0 0 0 0;
+    /* //dought */
+  }
+  .our-services-content-all h1 {
+    font-size: 15px;
+  }
+  .our-services-content-all {
+    font-size: 12px;
+  }
+  #contact {
+    font-size: 20px;
+  }
+  /* bg 3 */
+  #background-image-3-content {
+    width: 200px;
+    height: 200px;
+    font-size: 10px;
+    margin: 0 0 0 0;
+  }
+  #background-image-3-content > p {
+    font-size: 10px;
+    height: 20px;
+    width: 200px;
+    text-align: center;
+    margin: 90px 10px 0 0;
+  }
+
+  /* our team  */
+  #our-team {
+    font-size: 20px;
+    margin: 0 0 0 0;
+  }
+  #our-team-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .icon-our-team p {
+    margin-left: 30px;
+  }
+
+  /* our companu success */
+  #company-success-numbers {
+    display: flex;
+    flex-direction: column;
+  }
+  .button-success > button {
+    width: 0 0 0 0;
+    padding: 0 0 0 0;
+    width: 100px;
+    /* dougtht */
+  }
+  /* consult */
+
+  #content-consult {
+    font-size: 13px;
+    padding: 0 0 0 0;
+    margin-top: 40px;
+  }
+  .image-consult {
+    display: flex;
+    flex-direction: column;
+  }
+  .image-consult img {
+    width: 250px;
+    height: 200px;
+  }
+  .card {
+    width: 380px;
+    padding: 0 0 0 0;
+  }
+
+  /* end */
+  #end {
+    display: flex;
+    flex-direction: column;
+  }
+  #about-consultuing {
+    width: 200px;
+  }
+
+  /* copyrights */
+  #copyrights {
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+  }
+  #copyrights-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}

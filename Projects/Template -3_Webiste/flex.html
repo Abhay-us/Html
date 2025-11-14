@@ -11,6 +11,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="flex.css">
+    <link rel="stylesheet" href="flex-responsive.css">
 </head>
 
 <body>
@@ -66,8 +67,6 @@
         <div id="banner-content">
             <p>The government they survive artical of fortune</p>
             <h1>We IMPROVE YOUR <br>SALES EFFICIENCY</h1>
-        </div>
-        <div id="button-banner">
             <button>CONTACT US</button>
         </div>
     </div>
@@ -148,12 +147,12 @@
             <h1><b>OUR SERVICES</b></h1>
             <p>A tale of a fateful trip that started from this tropic port aboard this tiny ship today stiller</p>
         </div>
-        <div id="our-service-main-content-first">
+        <div id="our-service-main-content-first" class="our-services-card-1-2">
             <div class="our-services-card" id="our-services-1">
                 <div id="our-services-img-1" class="our-services-card-img">
                     <img src="./images/our-services-1.jpg" alt="rsssd" class="img-100">
                 </div>
-                <div id="our-services-content-1">
+                <div id="our-services-content-1" class="our-services-content-all">
                     <h1>Business Service</h1>
                     <p>The tiny ship today stiller</p>
                 </div>
@@ -162,7 +161,7 @@
                 <div id="our-services-img-2" class="our-services-card-img">
                     <img src="./images/our-services-2.jpg" alt="rsssd" class="img-100">
                 </div>
-                <div id="our-services-content-2">
+                <div id="our-services-content-2" class="our-services-content-all">
                     <h1>Consumer Product</h1>
                     <p>The tiny ship today stiller</p>
                 </div>
@@ -172,18 +171,18 @@
                 <div id="our-services-img-3" class="our-services-card-img">
                     <img src="./images/our-services-3.jpg" alt="rsssd" class="img-100">
                 </div>
-                <div id="our-services-content-3">
+                <div id="our-services-content-3" class="our-services-content-all">
                     <h1>Finacical Service</h1>
                     <p>The tiny ship today stiller</p>
                 </div>
             </div>
         </div>
-        <div id="our-service-main-content-second">
+        <div id="our-service-main-content-second" class="our-services-card-1-2">
             <div class="our-services-card" id="our-services-4">
                 <div id="our-services-img-4" class="our-services-card-img">
                     <img src="./images/our-services-4.jpg" alt="rsssd" class="img-100">
                 </div>
-                <div id="our-services-content-4">
+                <div id="our-services-content-4" class="our-services-content-all">
                     <h1>Travel and Aviation</h1>
                     <p>The tiny ship today stiller</p>
                 </div>
@@ -193,7 +192,7 @@
                 <div id="our-services-img-5" class="our-services-card-img">
                     <img src="./images/our-services-5.jpg" alt="rsssd" class="img-100">
                 </div>
-                <div id="our-services-content-5">
+                <div id="our-services-content-5" class="our-services-content-all">
                     <h1>Software Research</h1>
                     <p>The tiny ship today stiller</p>
                 </div>
@@ -203,7 +202,7 @@
                 <div id="our-services-img-6" class="our-services-card-img">
                     <img src="./images/our-services-6.jpg" alt="rsssd" class="img-100">
                 </div>
-                <div id="our-services-content-6">
+                <div id="our-services-content-6" class="our-services-content-all">
                     <h1>Quality Resourcing</h1>
                     <p>The tiny ship today stiller</p>
                 </div>
@@ -308,8 +307,6 @@
         <div class="button-success">
             <button id="button"> VIEW CASE STUDIES</button>
         </div>
-
-
     </div>
 
     <!-- consult -->
@@ -397,7 +394,7 @@
                 <img id="img-2-recent-post" src="./images/recentpost_2.jpg" alt="efs">
                 <p id="recent-post-img-content-2"><b>Till wanted by theam govern they survive as soldiers.</b></p>
             </div>
-        </diV>
+        </div>
 
         <div id="sol">
             <div id="sol-content">
@@ -428,28 +425,21 @@
             <div id="form-2-heading">
                 <h1>NewsLetter</h1>
             </div>
+
             <div id="form-2-content">
                 <form action="GET">
-                    <table id="newsLetter-table">
-                        <tr>
-                            <td><label for="name">Name</label></td>
-                            <td> <input type="text" name="myfirstname" placeholder="Enter First Name" id="firstname-1">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <label for="email">Email</label>
-                            </td>
-                            <td> <input type="email" name="myemail" placeholder="Enter Email " id="email"></td>
-                        </tr>
-                        <tr>
-                            <td id="end-button">
-                                <button>Subscribe</button>
-                            </td>
-                        </tr>
-                    </table>
+                    <label for="name">Name</label>
+                    <input type="text" name="myfirstname" placeholder=" Name*" id="firstname-1">
+                    <label for="email">Email</label>
+                    <hr>
+
+                    <input type="email" name="myemail" placeholder=" Email* " id="email">
+                    <hr>
+                    <button class="theme-button-one">SUBSCRIBE</button>
+
                 </form>
             </div>
+
         </div>
     </div>
 

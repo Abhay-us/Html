@@ -95,10 +95,8 @@
   font-size: 60px;
   color: #000f32;
 }
-#button-banner > button {
-  width: 200px;
-  height: 50px;
-  align-items: center;
+#banner-content > button {
+  padding: 10px 30px;
   font-size: 20px;
 }
 
@@ -121,11 +119,18 @@
 #about-company {
   display: flex;
   flex-direction: row;
-  align-items: center;
   justify-content: space-evenly;
-}
-#about-company-content {
+  align-items: center;
   text-align: center;
+  padding-left: 105px;
+  padding-right: 105px;
+  margin-bottom:100px ;
+}
+#about-company > img {
+  margin-bottom: 100px;
+}
+#about-company-content-box {
+  text-align: start;
 }
 #about-company-content > h1 {
   font-size: 40px;
@@ -327,7 +332,7 @@
 .card {
   padding: 75px 40px 0 40px;
   width: 35vw;
-  box-shadow: 0px 0px 20px 5px #606060b0;
+  box-shadow: 0px 0px 25px 5px #d3ceceb0;
   justify-content: center;
   align-items: center;
 }
@@ -360,6 +365,7 @@
 .col-3 > textarea {
   width: 100%;
   resize: none;
+  font-size: 18px;
   height: 100px;
   border: none;
   border-bottom: solid 2px #5e5e5e;
@@ -410,11 +416,26 @@
 #form-2-content {
   font-size: 20px;
 }
-#end-button > button {
-  font-size: 20px;
-  width: 150px;
+#form-2-content > form > label {
+  display: none;
+}
+#form-2-content > form > input {
+  display: flex;
+  margin-top: 20px;
+  flex-direction: row;
+  outline: none;
+  border: none;
   height: 50px;
-  margin-top: 70px;
+  width: 300px;
+  background-color: #001648;
+  color: white;
+}
+.theme-button-one {
+  width: 200px;
+  height: 50px;
+  font-size: 15px;
+  font-weight: 700;
+  background-color: aliceblue;
 }
 
 /* copyrights */
