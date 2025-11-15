@@ -113,7 +113,6 @@
     text-align: center;
     align-items: center;
     padding: 0 0 0 0;
-    /* //dought */
   }
   .our-services-content-all h1 {
     font-size: 15px;
@@ -155,6 +154,9 @@
   }
 
   /* our companu success */
+  #company-success-heading {
+    margin-top: 50px;
+  }
   #company-success-numbers {
     display: flex;
     flex-direction: column;
@@ -163,8 +165,9 @@
     width: 200px;
     padding: 0 0 0 0;
     background-color: #000f32;
-
-    /* dougtht */
+  }
+  .com-success-card h1 {
+    margin-top: 10px;
   }
 
   /* consult */
@@ -183,19 +186,38 @@
   }
   .card {
     width: 380px;
-    padding: 0 0 0 0;
+    padding: 20px 10px;
+    margin-top: 20px;
+  }
+  .row {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .col {
+    width: 100%;
   }
 
   /* end */
   #end {
     display: flex;
     flex-direction: column;
+    padding: 0px 10px;
+    text-align: justify;
+    margin: 0;
   }
   #about-consultuing {
-    width: 200px;
+    width: 100%;
   }
   #form-2-content form input {
-    width: 280px;
+    width: 100%;
+    border-bottom: solid 1px white;
+  }
+  .content-post {
+    padding-left: 10px;
+  }
+  #sol-list ul li {
+    margin: 10px;
   }
 
   /* copyrights */
@@ -203,16 +225,282 @@
     display: flex;
     flex-direction: column;
     font-size: 10px;
-    width: 283px;
   }
-  #copyrights-content a {
-    margin: 0 0 0 0;
-    padding: 0 0 0 0;
-    /* //dought */
+  #copyrights-content {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    gap: 0px;
+    text-decoration-color: aliceblue;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 720px) {
+  #logo {
+    display: flex;
+    flex-direction: row;
+  }
+  #logo > img {
+    width: 120px;
+    height: 60px;
+    margin: 10px 10px;
+  }
+  .contact-bar-button {
+    margin-right: 10px;
+  }
+
+  /* navbar */
+  #nav-1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;/
+   
+  }
+  #navbar-icon {
+    display: none;
+  }
+
+  /* Banner Responsive */
+  #banner {
+    background-size: 130% 100%;
+    background-position: -60px 0px;
+    flex-direction: column;
+    padding: 60px 0 0 0;
+  }
+  #banner-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  #banner-content > h1 {
+    font-size: 40px;
+    color: #000f32;
+  }
+   #banner-content button {
+    width: 200px;
+    height: 50px;
+    padding: 0px 30px;
+  }
+
+  /*  goal  */
+  #goal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 15px;
+  }
+  .goal-class i{
+    font-size: 30px;
+    margin:15px 0px ;
+
+  }
+  .goal-class h1{
+    font-size: 20px;
+    margin:15px 5px ;
+  }
+  .goal-class p{
+    font-size: 15px;
+    margin:15px 5px ;
+  }
+  .goal-class {
+    padding: 5px 0px;
+  }
+
+  /* about company */
+  #about-company {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    /* justify-content: space-evenly; */
+  }
+  #about-company-image > img {
+    height: 300px;
+    width: 300px;
+    margin: 50px 10px;
+  }
+   #about-company-content h1 {
+    font-size: 20px;
+    text-align: center;
+     margin: 15px 0px 0px 0px; 
+  }
+    #about-company-content p {
+    font-size: 15px;
+    text-align: center;
+     margin: 10px 0px 0px 0px; 
+  }
+  #about-company-content-icons {
+    font-size: 20px;
+    margin-top: 30px;
+    gap: 10px;
+  } 
+
+  /* <!-- banner --> */
+
+  #background-image-2-content {
+    font-size: 15px;
+    text-align: center;
+    padding-top:150px ;
+  }
+  #background-image-2-button button {
+    margin:50px 200px;
+  }
+  /* our services */
+  #our-services {
+    margin: 80px 0  ;
+  }
+  .our-services-card-1-2 {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    padding: 10px 10px;
+  }
+  #our-service-main-content-second{
+    padding: 0 30px;
+  }
+  .our-services-card-img{
+    padding: 0 10px;
+  }
+  .our-services-content-all h1 {
+    font-size: 15px;
+  }
+  .our-services-content-all {
+    font-size: 12px;
+  }
+  #contact {
+    font-size: 20px;
+  }
+  /* bg 3 */
+   #background-image-3{
+    margin: 0 10px;
+   }
+  #background-image-3-content {
+    width: 200px;
+    height: 200px;
+    font-size: 10px;
+    margin: 0 10px ;
+  }
+  #background-image-3-content > p {
+    font-size: 10px;
+    height: 20px;
+    width: 200px;
+    text-align: justify;
+    text-align: center;
+    margin: 60px 10px 0 0;
+  }
+
+  /* our team  */
+   #our-team-heading{
+    font-size: 15px;
+    margin: 50px 0 0 0 ;
+    /* background-color: aqua; */
+  } 
+
+  
+   .our-team-card-img {
+    display: flex;
+    flex-direction: column;
     justify-content: left;
-    align-items: flex-start;
+    padding: 0;
+    margin: 0;
+    /* //dought */
+    background-color: aqua;
+  }
+ .our-team-card-img img{
+  width: 200px;
+  gap: 0; 
+  margin: 0px;
+ }
+  /* our companu success */
+  #company-success-numbers {
+    display: flex;
+    flex-direction: row;
+    padding: 20px 0;
+ }
+  #button {
+    width: 200px;
+    padding: 20px 0px;
+    background-color: #000f32;
+  }
+  .com-success-card h1 {
+    font-size: 50px;
+    margin-top: 10px;
+  }
+
+  /* consult */
+  #content-consult {
+    font-size: 13px;
+    padding: 0 0 0 0;
+    margin-top: 100px;
+  }
+  .image-consult {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .image-consult img {
+    width: 400px;
+    height: 400px;
+  }
+  .card {
+    width: 380px;
+    padding: 20px 10px;
+    margin-top: 20px;
+  }
+  .row {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .col {
+    width: 100%;
+  }
+
+  /* end */
+  #end {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10px;
+    text-align: justify;
+    margin: 20px 0px;
+  }
+   #end h1{
+    font-size: 30px;
+   }
+  #about-consultuing {
+    width: 100%;
+    margin: 20px 0px;
+    font-size: 15px;
+  }
+  #form-2-content form input {
+    width: 100%;
+    border-bottom: solid 1px white;
+  }
+
+  #sol-list ul li {
+    font-size: 15px;
+    margin: 30px;
+  }
+  #recent-post{
+    margin: 10px 10px;
+  }
+
+  /* copyrights */
+  #copyrights {
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    align-items: center;
+    margin-top: 0;
+    background-color: palevioletred;
+  }
+  #copyrights-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 100px;
     color: aliceblue;
+
   }
 }

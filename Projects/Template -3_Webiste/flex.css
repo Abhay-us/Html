@@ -1,7 +1,9 @@
-/* div {
-  border: solid 1px;
-  padding: 10px;
-} */
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway", Helvetica, sans-serif;
+}
+
 .img-100 {
   width: 100%;
 }
@@ -31,8 +33,7 @@
   font-size: 30px;
   margin-right: 10px;
 }
-.contact-bar-item > p > span {
-}
+
 .contact-bar-item > p > .contact-address-heading {
   font-size: 24px;
   /* font-weight: 800; */
@@ -124,7 +125,7 @@
   text-align: center;
   padding-left: 105px;
   padding-right: 105px;
-  margin-bottom:100px ;
+  margin-bottom: 100px;
 }
 #about-company > img {
   margin-bottom: 100px;
@@ -410,8 +411,14 @@
   display: flex;
   height: 100px;
 }
-#sol-list {
+.recent-post-class p {
+  display: flex;
+  align-items: center;
+}
+
+#sol-list ul li {
   font-size: 20px;
+  margin: 20px 0;
 }
 #form-2-content {
   font-size: 20px;
@@ -429,6 +436,7 @@
   width: 300px;
   background-color: #001648;
   color: white;
+  border-bottom: solid 1px white;
 }
 .theme-button-one {
   width: 200px;
@@ -437,12 +445,15 @@
   font-weight: 700;
   background-color: aliceblue;
 }
+.button-class {
+  margin-top: 10px;
+}
 
 /* copyrights */
 #copyrights {
   display: flex;
   justify-content: space-around;
-  background-color: #001138;
+  background-color: #010510;
   color: aliceblue;
 }
 #copyrights-content {
