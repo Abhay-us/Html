@@ -112,16 +112,25 @@
     flex-direction: column;
     text-align: center;
     align-items: center;
-    padding: 0 0 0 0;
+  }
+    .our-services-content-all {
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   .our-services-content-all h1 {
     font-size: 15px;
   }
-  .our-services-content-all {
-    font-size: 12px;
-  }
+
   #contact {
     font-size: 20px;
+    padding: 50px 0;
+  }
+  #our-service-main-content-second{
+    padding-top: 0;
+    padding-bottom: 50px;
   }
   /* bg 3 */
   #background-image-3-content {
@@ -145,7 +154,10 @@
     font-size: 20px;
     margin: 0 0 0 0;
   }
-  #our-team-content {
+  #our-team-main-box {
+    flex-direction: column;
+  }
+  .our-team-content {
     display: flex;
     flex-direction: column;
   }
@@ -395,20 +407,19 @@
     padding: 30px;
     margin: 30px;
   }
+  #our-team-main-box {
+    flex-direction: column;
+  }
    #our-team-heading{
     font-size: 15px;
     /* background-color: aqua; */
   } 
-   #our-team-content{
+  .our-team-content{
     display: flex;
     flex-direction: row ;
       gap: 10px;
   }
-     #our-team-content-2{
-    display: flex;
-    flex-direction: row ;
-    gap: 10px;
-  }
+
   .our-team-card-img-1{
     text-align: center;
   }

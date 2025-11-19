@@ -234,37 +234,43 @@
   width: 40%;
   display: flex;
   flex-direction: column;
-
   margin: 100px;
-  /* dought */
 }
 #background-image-3-content > p {
   font-size: 20px;
   /* padding: 60px 0px; */
   margin: 100px;
 }
+
 /* <!-- our team --> */
 #our-team {
-  margin: 100px;
+  margin: 100px 0 0 0;
 }
 .our-team-card {
   text-align: center;
 }
-#our-team-content {
+#our-team-main-box {
+  display: flex;
+  flex-direction: row;
+  font-family: "Source Sans Pro", sans-serif;
+  /* background-color: #007bff; */
+  justify-content: space-evenly;
+  gap: 20px;
+  padding: 30px 100px;
+}
+
+.our-team-content {
   display: flex;
   flex-direction: row;
   font-family: "Source Sans Pro", sans-serif;
   justify-content: space-evenly;
-}
-.our-team-card-img > img {
-  height: 200px;
-}
-.our-team-card-img {
+  gap: 20px;
   text-align: center;
+} 
+.our-team-card-img-1{
+  padding: 20px;
 }
-.icon-our-team > p {
-  width: 210px;
-}
+
 /* COMPANY SUCCESS */
 #company-success-heading > p {
   color: black;
