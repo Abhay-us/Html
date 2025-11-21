@@ -1,0 +1,94 @@
+* {
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+body{
+  margin: 20px 200px;
+}
+.header {
+  margin: 20px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  /* background-color: aliceblue; */
+}
+
+.header-content {
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar a {
+  font-weight: 500;
+  font-size: 12px;
+  text-transform: uppercase;
+  outline: none;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+  padding: 0 8px;
+}
+/* BANNER */
+.banner {
+  margin: 200px 0;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+.banner-content {
+  text-align: left;
+  /* display: flex; */
+  font-family: "Poppins", sans-serif;
+  /* flex-direction: column; */
+  /* gap: 30px; */
+  /* justify-content: center; */
+  padding-right: 30px;
+}
+.banner-content h3 {
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  font-weight: 400;
+}
+.banner-content h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+}
+.banner-content p {
+  color: #777777;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.625em;
+}
+
+/* .banner-content button {
+  border: none;
+  background: linear-gradient(90deg, #8989cc, #cba8cb);
+  color: aliceblue;
+  margin-right: 450px;
+  padding: 15px 0;
+  font-weight: 500;
+}  */
+.btn {
+  border: none;
+  background: linear-gradient(90deg, #8989cc, #cba8cb);
+  /* padding: 20px  12px; */
+  color: aliceblue;
+  margin-right: 450px;
+  padding: 15px 0;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.btn:hover {
+  box-shadow: 0px 20px 20px 0px rgba(3, 3, 3, 0.3);
+}
+/* About me */
+.about-me-content button {
+  margin-right: 300px;
+  padding: 15px 0px;
+  font-weight: 500;
+}
