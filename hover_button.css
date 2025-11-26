@@ -1,0 +1,66 @@
+.btn {
+  height: 150px;
+  width: 150px;
+  font-size: 40px;
+  background-color: white;
+  color: blue;
+  border: 10px solid rgb(94, 79, 79);
+}
+.btn:hover {
+  transition-property: all;
+  transition-duration: 1s;
+  transition-delay: 0.5s;
+  transition-timing-function: linear;
+  border-radius: 100%;
+  background-color: black;
+  color: white;
+  border: solid rgb(45, 23, 246) 10px;
+}
+.btn-2 {
+  height: 150px;
+  width: 150px;
+  font-size: 40px;
+
+  background: linear-gradient(to left, #fd4141 50%, #151212 50%);
+  background-position: right;
+  background-size: 200%;
+  color: blue;
+  border: 10px solid rgb(94, 79, 79);
+  transition-property: background-position;
+  transition-duration: 1s;
+  transition-delay: 0.1s;
+  transition-timing-function: linear;
+}
+
+.btn-2:hover {
+  background-position: left;
+
+  transition-property: background-position;
+  transition-duration: 1s;
+  transition-delay: 0.5s;
+  transition-timing-function: linear;
+}
+
+.btn-3 {
+  height: 150px;
+  width: 150px;
+  font-size: 40px;
+  background-color: white;
+  color: blue;
+  border: 10px solid rgb(94, 79, 79);
+  box-shadow: 17px 15px 10px 8px transparent;
+  transition-property: box-shadow;
+  transition-duration: 1s;
+  transition-delay: 0.1s;
+  transition-timing-function: linear;
+}
+
+.btn-3:hover {
+  box-shadow: 17px 15px 10px 8px #93898966;
+  transition-property: box-shadow;
+  transition-duration: 1s;
+  transition-delay: 0.1s;
+  transition-timing-function: linear;
+}
+
+
