@@ -467,3 +467,388 @@ body {
 .copyrights {
   margin: 20px 0;
 }
+
+@media (min-width: 300px) and (max-width: 640px) {
+  body {
+    padding: 0 20px;
+    margin: 0;
+  }
+  .header-content {
+    padding: 0 20px;
+  }
+  .logo_a {
+    text-align: left;
+  }
+  .navbar_a {
+    display: none;
+  }
+
+  /* banner */
+  .banner {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+  }
+  .banner-content-head-3 {
+    padding-top: 1000px;
+  }
+  .banner-content {
+    padding: 10px 0;
+  }
+  .banner-content-h1 {
+    font-size: 30px;
+    padding-top: 50px;
+  }
+  .banner-image img {
+    width: 250px;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  /* about me */
+  .banner-about-me-image img {
+    padding-top: 20px;
+    width: 240px;
+  }
+  .banner-content-head-3 {
+    padding: 0;
+  }
+  .banner-content-h1-about-me {
+    font-size: 20px;
+    padding: 20px 0;
+  }
+  .banner-content-p {
+    padding-bottom: 60px;
+  }
+  /* offerred services */
+  .services-header {
+    padding: 0;
+  }
+  .services-header-p {
+    margin: 0 -30px;
+    padding-bottom: 40px;
+    text-align: justify;
+  }
+  .services_1-3 {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .services-h3 {
+    font-size: 15px;
+    text-align: center;
+  }
+  .main-services-content {
+    padding: 0px;
+  }
+  .main-services-content p {
+    margin: 0 -90px;
+    text-align: justify;
+  }
+
+  /* records */
+  .records {
+    display: flex;
+    flex-direction: column;
+  }
+  .record-content {
+    padding: 30px 0;
+  }
+
+  /* feautres*/
+  .features-heading {
+    margin: 0;
+    padding: 0;
+  }
+  .features-link {
+    display: none;
+  }
+  .featuers-card {
+    display: flex;
+    flex-direction: column;
+  }
+  .section-img img {
+    width: 230px;
+    height: 230px;
+  }
+  .overlay-image > img {
+    display: none;
+  }
+
+  /* feedback */
+  .feedback-main-content-box {
+    display: flex;
+    flex-direction: column;
+  }
+  .feedback-box {
+    display: flex;
+    flex-direction: column;
+  }
+  .feedback-box-content {
+    padding: 0;
+  }
+
+  /* plan */
+  .plan-main-content-box {
+    display: flex;
+    flex-direction: column;
+  }
+  .plan-content {
+    padding: 0;
+    margin: 0;
+    width: 120px;
+  }
+  .plan-content-h1 {
+    border-radius: 100%;
+    border: 10px solid #8490ff66;
+    font-size: 36px;
+    font-weight: 300;
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    line-height: 90px;
+  }
+  /* posts */
+  .post-heading {
+    padding-bottom: 50px;
+    text-align: center;
+  }
+  .post-p {
+    padding: 20px 0;
+    margin: 0;
+  }
+  .post-main-content-box {
+    display: flex;
+    flex-direction: column;
+  }
+  .post-content-img {
+    width: 240px;
+  }
+  .posts-box-content-h3 {
+    letter-spacing: 1px;
+    padding: 10px 0;
+  }
+  .post-box-p {
+    padding-bottom: 50px;
+  }
+  /* labels */
+  .labels {
+    margin-right: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .labels-img {
+    padding: 30px 0;
+  }
+  /* end */
+  .end {
+    display: flex;
+    flex-direction: column;
+    /* padding: 0 40px; */
+  }
+  .end-content {
+    text-align: justify;
+    margin: 0;
+    width: 218px;
+    /* dought */
+    padding: 40px 20px;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 720px) {
+  body {
+    padding: 0 20px;
+    margin: 0;
+  }
+  .header-content {
+    padding: 0 20px;
+  }
+  .logo_a {
+    text-align: left;
+  }
+  .navbar_a {
+    display: none;
+  }
+
+  /* banner */
+  .banner {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+  }
+  .banner-content-head-3 {
+  }
+  .banner-content {
+    text-align: center;
+    padding: 10px 0;
+  }
+  .banner-content-h1 {
+    font-size: 30px;
+    padding-top: 10px;
+  }
+  .banner-image img {
+    width: 300px;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  /* about me */
+  .banner-about-me-image img {
+    padding-top: 20px;
+    width: 540px;
+  }
+  .banner-content-head-3 {
+    padding: 0;
+  }
+  .banner-content-h1-about-me {
+    font-size: 20px;
+    padding: 20px 0;
+  }
+  .banner-content-p {
+    padding-bottom: 60px;
+  }
+  /* offerred services */
+  .services-header {
+    padding: 0;
+  }
+  .services-header-p {
+    margin: 0 -30px;
+    padding-bottom: 40px;
+    text-align: center;
+  }
+  .services_1-3 {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .services-h3 {
+    font-size: 15px;
+    text-align: center;
+  }
+  .main-services-content {
+    padding: 0px;
+  }
+  .main-services-content p {
+    margin: 0 -190px;
+    text-align: center;
+    letter-spacing: 1px;
+  }
+
+  /* records */
+  .records {
+    display: flex;
+    flex-direction: row;
+  }
+  .record-content {
+    padding: 30px 20px;
+  }
+
+  /* feautres*/
+  .features-heading {
+    margin: 0;
+    padding-bottom: 40px;
+  }
+
+  .featuers-card {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+  }
+  .section-img img {
+    width: 100%;
+    height: 340px;
+  }
+  .overlay-image > img {
+    /* display: none; */
+    width: 100px;
+    height: 100px;
+  }
+
+  /* feedback */
+  .feedback-main-content-box {
+    display: flex;
+    flex-direction: row;
+  }
+  .feedback-box {
+    display: flex;
+    flex-direction: column;
+  }
+  .feedback-box-content {
+    padding: 0;
+  }
+
+  /* plan */
+  .plan-main-content-box {
+    display: flex;
+    flex-direction: row;
+    margin: 0 20px;
+  }
+  .plan-content {
+    padding: 0;
+    margin: 0;
+    width: 100px;
+  }
+  .plan-content-h1 {
+    border-radius: 100%;
+    border: 5px solid #8490ff66;
+    font-size: 36px;
+    font-weight: 300;
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    line-height: 90px;
+  }
+  .plan-
+  /* posts */
+  .post-p {
+    padding: 0px;
+    margin: 0;
+    letter-spacing: 1px;
+  }
+  .post-main-content-box {
+    display: flex;
+    flex-direction: column;
+  }
+  .post-content-img {
+    width: 100%;
+  }
+  .post-user-img img {
+    width: 50%;
+  }
+  .posts-box-content-h3 {
+    letter-spacing: 1px;
+    padding: 10px 0;
+  }
+  .post-box-p {
+    padding-bottom: 50px;
+  }
+  /* labels */
+  .labels {
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .labels-img img {
+    width: 100px;
+    padding: 20px 10px;
+  }
+  /* end */
+  .end {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 40px;
+  }
+}

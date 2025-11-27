@@ -408,6 +408,7 @@
     margin: 30px;
   }
   #our-team-main-box {
+    display: flex;
     flex-direction: column;
   }
    #our-team-heading{
