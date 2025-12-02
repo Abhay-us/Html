@@ -1,0 +1,23 @@
+.box{
+    border: solid 1px red;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.inner-box{
+    border: dotted 2px black;
+    margin: 5px;
+    width: 20%;
+}
+@media (min-width: 300px) and (max-width: 640px) {
+    .inner-box{
+        width: 100%;
+    }
+}
+
+@media (min-width: 641px) and (max-width: 720px) {
+    .inner-box{
+        width: 40%;
+    }
+}
