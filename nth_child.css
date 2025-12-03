@@ -1,0 +1,123 @@
+ul {
+  list-style-type: lower-roman;
+  list-style-position: outside;
+  /* list-style-image: url('./images/CLouds_360x270.jpg'); */
+
+  /* margin: 10px 20px; */
+}
+
+ul.list1 > li:first-child {
+  background-color: aquamarine;
+}
+
+ul.list1 > li:last-child {
+  background-color: coral;
+}
+
+ul.list1 > li:nth-child(3) {
+  background-color: yellow;
+}
+
+/* ul.list1 > li:nth-child(2){
+    color: red;
+}
+ul.list1 > li:nth-child(4){
+    color: red;
+} */
+
+/* ul.list1 > li:nth-child(2), ul.list1 > li:nth-child(4){
+    color: red;
+} */
+
+ul.list1 > li:nth-child(2n) {
+  color: red;
+}
+ul.list1 > li:nth-child(2n + 1) {
+  color: green;
+}
+
+.div1 {
+  border: solid 2px blue;
+}
+
+div:has(p) {
+  background-color: cadetblue;
+}
+
+ul > li:has(p) {
+  background-color: blueviolet;
+  margin: 0;
+}
+
+ul > li > p {
+  margin: 0;
+}
+
+a:link {
+  color: goldenrod;
+}
+
+a:visited {
+  color: red;
+}
+
+a:active {
+  color: green;
+}
+
+/* Nav Menu */
+ul.nav-menu {
+  list-style: none;
+  display: inline-block;
+}
+
+ul.nav-menu > li {
+  display: inline;
+  padding: 10px 20px;
+  margin: 0 5px;
+  background-color: white;
+  border-bottom: solid 2px black;
+}
+
+ul.nav-menu > li > a {
+  text-decoration: none;
+}
+
+ul.nav-menu > li:hover {
+  background-color: black;
+  border-bottom: solid 2px red;
+  color: white;
+}
+
+ul.nav-menu > li:hover > a {
+  color: white;
+}
+
+/* Pseudo Elements - before, after */
+
+.nav-link::before {
+  content: "tt ";
+  background-color: coral;
+  padding: 10px;
+}
+/* 
+.nav-link::before:hover{
+    content: "TT ";
+    background-color: green;
+    color: white;
+    padding: 10px;
+} */
+
+.nav-link:hover::before {
+  content: "tt ";
+  background-color: red;
+  padding: 10px;
+}
+
+/*form  */
+.form-1 > form {
+  display: flex;
+  flex-direction: column;
+  padding: 200px 0;
+  gap: 20px;
+}

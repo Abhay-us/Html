@@ -13,7 +13,7 @@ p {
   font-family: "Poppins", sans-serif;
 }
 body {
-  margin: 0px 200px;
+  margin: 0px 150px;
 }
 .header {
   position: fixed;
@@ -967,7 +967,7 @@ body {
     text-align: center;
   }
   .main-services-content {
-    padding: 0px;
+    padding: 0px;`
   }
   .main-services-content p {
     margin: 0 -190px;
