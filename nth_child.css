@@ -114,10 +114,3 @@ ul.nav-menu > li:hover > a {
   padding: 10px;
 }
 
-/*form  */
-.form-1 > form {
-  display: flex;
-  flex-direction: column;
-  padding: 200px 0;
-  gap: 20px;
-}

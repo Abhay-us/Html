@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="form_pseudoClasses.css">
+</head>
+
+<body>
+
+    <div class="form-1">
+        <form action="GET">
+            <label for="firstname"> First Name</label>
+            <input type="text" name="myfirstname" placeholder="Enter First Name" id="firstname" required>
+            Age
+            <input type="number" name="myage" id="age" min="0" max="100" step="5" placeholder="Enter Age">
+            Email
+            <input type="email" name="myemail" id="email" placeholder="Enter Your Email Address">
+
+            Telephone
+            <input type="tel" name="myphone" id="phone" placeholder="Enter Your Phone no">
+
+            DOB
+            <input type="date" name="mydob" id="dob">
+
+            Time
+            <input type="time" name="dobtime" id="dobtime">
+
+            Datetime - Local
+            <input type="datetime-local" name="datetimelocal" id="datetimelocal">
+
+            Month
+            <input type="month" name="month" id="month">
+
+            Range
+            <input type="range" name="myrange" id="range" min="0" max="100" step="5">
+
+            Color
+            <input type="color" name="mycolor" id="color">
+
+            <label for="search"> Search</label>
+            <input type="search" name="mysearch" placeholder="Enter Search query" id="search" >
+            
+            <div>
+                Gender
+                <input type="radio" name="gender" id="male" value="male"> Male
+                <input type="radio" name="gender" id="female" value="female" checked> Female
+            </div>
+
+            <div>
+                Checkbox
+                <input type="checkbox" name="hobbies" id="reading" value="reading" checked> Reading
+                <input type="checkbox" name="hobbies" id="Writing" value="writing"> Writing
+                <input type="checkbox" name="hobbies" id="Singing" value="singing"> Singing
+            </div>
+
+            <div>
+                <label for="phonenumber" class="form-label">Services You're Looking For!</label>
+                <select name="nyservices" id="services-1" class="input-field">
+                    <!-- <option value="0">Services you're Looking For!</option> -->
+                    <option value="1" selected>Services Option 1</option>
+                    <option value="2">Services Option 2</option>
+                    <option value="3">Services Option 3</option>
+                </select>
+            </div>
+
+            <div>
+                <input type="button" value="Normal Button">
+                <input type="reset" value="Reset Button">
+
+                <input type="submit" value="Submit Button">
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>

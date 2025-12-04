@@ -1,0 +1,34 @@
+/*form  */
+div{
+
+}
+.form-1 > form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin:auto;
+  width: 50%;
+  border: 5px solid black;
+  padding: 20px ;
+}
+
+input{
+    border: solid 1px grey;
+    border-radius: 0;
+    color: navy;
+}
+
+input:focus{
+    border: solid 2px green;
+}
+
+input[type="text"]{
+    color: red;
+}
+
+input[type="text"]:focus{
+    color: red;
+    border: solid 2px black ;
+    outline: green solid 5px;
+}
+
