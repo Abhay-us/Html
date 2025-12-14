@@ -1,0 +1,89 @@
+a {
+  list-style: none;
+  text-decoration: none;
+  outline: none;
+}
+
+.hero-banner {
+  background-image: url("./assets/images/banner/videograph-hero-1-1920x684.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 684px;
+  color: white;
+}
+.navbar-ul {
+  list-style: none;
+  text-decoration: none;
+  outline: none;
+  font-family: "Play", sans-serif;
+}
+.navbar-ul > li > a {
+  text-decoration: none;
+  outline: none;
+  color: aliceblue;
+  font-size: 18px;
+}
+.menu-span {
+  background-color: #4c4c4c;
+}
+.menu {
+  background-color: #222;
+  color: aliceblue;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+/* services */
+.services-cont {
+  background-color: #100028;
+  height: 800px;
+}
+.services {
+  color: aliceblue;
+  height: 500px;
+}
+.services-content {
+  color: aliceblue;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+}
+/* images secton */
+.images-sec {
+  background-color: #100028;
+}
+
+/* record-section */
+.cont-record-section {
+  background-color: #100028;
+}
+.content-record {
+  color: aliceblue;
+  background-color: #1a083d;
+  height: 200px;
+  text-align: center;
+  padding: 20px 0;
+}
+/* our team */
+.cont-our-team {
+  background-image: url("./assets/images/our-team/background-image-our-team-1.jpg");
+}
+.our-team-heading {
+  color: aliceblue;
+  font-family: "Play", sans-serif;
+}
+/* our blog */
+.cont-our-blogs {
+  background-color: #100028;
+}
+.our-blogs-heading {
+  color: aliceblue;
+  font-family: "Play", sans-serif;
+}
+.our-blog-content {
+  color: aliceblue;
+}
+/* conten fresh */
+.fresh-content{
+  background-image: url("./assets/images/fresh-conten/background-image.jpg");
+  height: 500px;
+}
