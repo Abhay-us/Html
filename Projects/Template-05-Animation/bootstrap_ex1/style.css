@@ -59,9 +59,10 @@ a {
 .content-record {
   color: aliceblue;
   background-color: #1a083d;
-  height: 200px;
-  text-align: center;
-  padding: 20px 0;
+  
+}
+.content-record > img{
+  height: 60px !important;
 }
 /* our team */
 .cont-our-team {
@@ -86,4 +87,8 @@ a {
 .fresh-content{
   background-image: url("./assets/images/fresh-conten/background-image.jpg");
   height: 500px;
+}
+.fresh-content-div{
+  padding-top: 200px;
+  color: aliceblue;
 }
