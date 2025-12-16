@@ -2,6 +2,7 @@ a {
   list-style: none;
   text-decoration: none;
   outline: none;
+  color: aliceblue;
 }
 
 .hero-banner {
@@ -36,11 +37,9 @@ a {
 /* services */
 .services-cont {
   background-color: #100028;
-  height: 800px;
 }
 .services {
   color: aliceblue;
-  height: 500px;
 }
 .services-content {
   color: aliceblue;
@@ -91,4 +90,8 @@ a {
 .fresh-content-div{
   padding-top: 200px;
   color: aliceblue;
+}
+/* footer */
+.footer{
+  background-color: #100028;
 }
