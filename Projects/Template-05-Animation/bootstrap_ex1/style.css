@@ -35,6 +35,10 @@ button:focus,
 textarea:focus {
   outline: none;
 }
+.card {
+  background-color: transparent;
+  border: none;
+}
 /* start */
 .hero-banner {
   background-image: url("./assets/images/banner/videograph-hero-1-1920x684.jpg");
@@ -149,40 +153,54 @@ textarea:focus {
 /* images secton */
 .images-sec {
   background-color: #100028;
-  
 }
 .images-main {
   position: relative;
 }
 
-
 .content-images-sec {
   position: absolute;
   width: 100%;
-  inset: 0;
+  bottom: 0;
   background: rgba(0, 0, 0, 0.6);
   color: #fff;
-  z-index: 1;
-  opacity: 0;
- transform: translateY(100%);
+  font-family: "Play", sans-serif;
   transition: transform 0.7s ease;
+  display: none;
 }
 .images-main:hover .content-images-sec {
-  opacity: 1;
-  visibility: visible;
-  height: 50%;
+ display: block;
+  font-size: 22px;
+  color: #ffffff;
+  font-weight: 700;
 }
 
 /* record-section */
 .cont-record-section {
   background-color: #100028;
 }
+.content-div {
+  width: 220px;
+  height: 220px;
+  background: linear-gradient(145deg, #1c0838, #12002a);
+  transform: rotate(45deg);
+  border: solid white 2px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .content-record {
   color: aliceblue;
-  background-color: #1a083d;
+  transform: rotate(-45deg);
+  text-align: center;
+  color: #fff;
 }
 .content-record > img {
   height: 60px !important;
+  width: 40px;
+  border-bottom: 15px;
 }
 /* our team */
 .cont-our-team {
@@ -190,15 +208,49 @@ textarea:focus {
   background-repeat: no-repeat;
   background-color: #100028;
   background-position: center;
-  background-size: auto;
+  background-size: cover;
 }
 .our-team-heading {
   color: aliceblue;
   font-family: "Play", sans-serif;
 }
+
+.our-team-sec{
+  background-color: #080114a9;
+
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: none;
+}
+.card:hover .our-team-sec{
+  display: block;
+}
+
+.team-card-2 .card{
+  transform: translateY(-50px);
+}
+.team-card-3 .card{
+  transform: translateY(-100px);
+}
+.team-card-4 .card{
+  transform: translateY(-150px);
+}
+
+.team-meet-btn{
+  transform: translateY(-50px);
+}
+
 /* our blog */
 .cont-our-blogs {
   background-color: #100028;
+}
+.blog-body:hover {
+  background-image: url("./assets/images/our-blogs/blog-1-357x340.jpg");
+  background-color: #100028;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-size: cover;
 }
 .our-blogs-heading {
   color: aliceblue;
