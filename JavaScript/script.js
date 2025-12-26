@@ -1,5 +1,5 @@
 // var a =12;
-// document.write(typeof(a)); 
+// document.write(typeof(a));
 // document.write("<br>");
 // document.write(`<img src="" alt="Image test"><br>`);
 // document.write(a);
@@ -12,16 +12,16 @@ MULTI LINE COMMENT
 // Conditions
 // // if-else statement
 // if (condition) {
-    
+
 // } else {
-    
+
 // }
 
 // // if-else-if statement
 // if (condition) {
-    
+
 // } else if (condition) {
-    
+
 // } else {
 
 // }
@@ -29,15 +29,15 @@ MULTI LINE COMMENT
 // // Nexted If-else statement
 // if (condition) {
 //     if (condition) {
-        
+
 //     } else {
-        
+
 //     }
 // } else {
 //     if (condition) {
-        
+
 //     } else {
-        
+
 //     }
 // }
 
@@ -63,8 +63,7 @@ MULTI LINE COMMENT
 //     index++;
 // } while ( index < range);
 
-
-// Even or Odd Number 
+// Even or Odd Number
 // var a = 15;
 // if( a%2==0){
 //     document.writeln("Even number");
@@ -72,9 +71,22 @@ MULTI LINE COMMENT
 //     document.writeln("Odd Number");
 // }
 
-
 // for(let i=1; i<=15;i++){
 //     if(i%2==0){
 //         document.writeln("<br>"+i);
 //     }
+// }
+
+// var a=13;
+// var count=0;
+// for(let i=1;i<=a;i++){
+//     if(a%i==0){
+//         count++;
+//     }
+
+// }
+// if(count==2){
+//     document.writeln("Prime number")
+// }else{
+//     document.writeln("Not prime")
 // }
