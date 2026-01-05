@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color: black;
+    padding: 10px;
+    overflow: hidden;
+}
+.navbar a {
+    float: left;
+    color: white;
+    padding: 10px 12px;
+    margin: 10px 0;
+}
+
+.dropdown{
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropdown-button{
+    color: white;
+    padding: 10px 12px;
+    margin: 10px 0;
+    background-color: transparent;
+    border: none;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    /* margin-left: -100px; */
+    width: 10vw;
+    background-color: grey;
+    z-index: 1;
+    padding: 0;
+}
+
+.dropdown-content > a{
+    display: block;
+    width: 8.4vw;
+    padding: 10px 12px;
+    color: black;
+}
+
+.dropdown-content > a:hover{
+    background-color: white;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
