@@ -22,19 +22,18 @@
 
 <body>
 
-    <div class="container-fluid main-banner">
+    <div class="container-fluid">
         <div class="container">
             <header>
                 <nav class="navbar navbar-expand-lg bg-body-tertiary">
                     <div class="container-fluid">
-                        <a class="navbar-brand text-white fw-bolder" href="#">
+                        <a class="navbar-brand text-white fw-bolder" href="./">
                             <i class="fa-solid fa-utensils"></i>
                             NiceResturant
                         </a>
                         <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse"
                             data-bs-target="#bsnavbar" aria-controls="bsnavbar" aria-expanded="false"
                             aria-label="Toggle navigation">
-                            <!-- <span class="navbar-toggler-icon"></span> -->
                             <i class="fa-solid fa-bars"></i>
                         </button>
                         <div class="collapse navbar-collapse" id="bsnavbar">
@@ -58,8 +57,8 @@
                                     <a class="nav-link text-white" href="#">Events</a>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link text-white dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                        aria-expanded="false">
+                                    <a class="nav-link text-white dropdown-toggle" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
                                         Dropdown
                                     </a>
                                     <ul class="dropdown-menu">
@@ -80,39 +79,205 @@
                     </div>
                 </nav>
             </header>
-            <main style="height: 100vh;">
 
-            </main>
         </div>
     </div>
 
-    <div class="container-fluid ">
-        <div class="container">
-            <div class="row d-flex align-items-center">
-                <div class="col-2 navbar">
-                    <i class="fa-solid fa-utensils"></i>
-                    <h3 class="p-3 text-white">NiceResturant</h3>
-                </div>
-                <div class="col-8 d-flex justify-content-around navbar-content">
-                    <a href="#">Home</a>
-                    <a href="#">About</a>
-                    <a href="#">Menu</a>
-                    <a href="#">Book a Table</a>
-                    <a href="#">Chefs</a>
-                    <a href="#">Eventes</a>
-                    <a href="#">Dropdown</a>
-                    <a href="#">Contacts</a>
-                </div>
-                <div class="col-2 ">
-                    <button class="bg-info mr-3 p-1 border-5">Book a Table</button>
+
+    <section id="hero-banner">
+        <div class="container ">
+            <div class="row">
+                <div class="col-6 text-white">
+                    <h5 class=" pt-5">Reservation Open</h5>
+                    <h1 class="pt-4 text-uppercase   fw-bold">Savor the Moment,<br> One Bite at a Time</h1>
+                    <p class="pt-4">Discover a journey of flavors at our exquisite restaurant. Immerse yourself in a
+                        delightful
+                        dining experience crafted with passion and precision.</p>
+
+                    <div>
+                        <i class="fa-regular fa-clock"></i>
+                        <span class="pt-4">Open Daily: 11am - 10pm</span>
+                    </div>
+                    <div class="pt-4 m-0">
+                        <a href="#"
+                            class="btn btn-book text-white m-0 p-2 fs-3 bg-secondary border-3  border-white">Book a
+                            Table</a>
+                        <a href="#" class="btn btn-menu text-white fs-3 mx-5 border-white border-3">Explore Our Menu</a>
+                    </div>
+                    <div class="mt-5 ">
+                        <a href="#"><i class="fa-brands fa-facebook text-light "></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter p-3 text-light"></i></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram p-3 text-light"></i></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube p-3 text-light"></i></a>
+                    </div>
                 </div>
 
+                <div class="col-6 image-banner">
+                    <img src="./assets/images/banner-image/first-banner.jpg" alt="ddd">
+                </div>
             </div>
         </div>
+    </section>
 
-    </div>
+    <!-- section one  end-->
 
+    <!-- about section start -->
+    <section>
+        <div class="container d-flex flex-row border-bottom pb-5">
+            <div class="col-6 text-white ">
+                <h3 class="fw-bold">Our Culinary Journey</h3>
+                <p class="fst-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim
+                    in eros elementum tristique.</p>
+                <p>Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
+                    Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risustristique pos
+                    uere. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+                <div class=" pt-5 row about-image">
+                    <div class="col-1">
+                        <img src="./assets/images/about-images/chef-image.jpg" alt="Chefs">
+                    </div>
+                    <div class="col about-content">
+                        <p>"Cooking is a language through which all the following properties
+                            may
+                            be expressed: harmony, creativity, happiness, beauty, poetry, complexity, magic, humor,
+                            provocation and culture."</p>
+                        <p>Executive Chef</p>
+                    </div>
+                </div>
+            </div>
 
-    <script src="./js/bootstrap.min.js"></script>
+            <div class="col-6 about-content-col  px-4  d-flex flex-row ">
+                <div class="col-6 h-100  ">
+                    <img src="./assets/images/about-images/about_us_1.jpg" alt="hd">
+                </div>
+                <div class="col-6 ">
+                    <img src="./assets/images/about-images/about_us_2.jpg" alt="dds">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about us end -->
+    <!-- features start -->
+    <section class="pt-4">
+        <div class="container d-flex  text-center text-white ">
+            <div class="col-3">
+                <div>
+                    <i class="fa-solid fa-award icon-feature"></i>
+                </div>
+                <h5>Award Winning</h5>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.
+                </p>
+            </div>
+            <div class="col-3">
+                <div>
+                    <i class="fa-solid fa-egg"></i>
+                </div>
+                <h5>Award Winning</h5>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.
+                </p>
+            </div>
+            <div class="col-3">
+                <div>
+                    <i class="fa-solid fa-user-group"></i>
+                </div>
+                <h5>Award Winning</h5>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.
+                </p>
+            </div>
+            <div class="col-3">
+                <div>
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+                <h5>Award Winning</h5>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.
+                </p>
+            </div>
+        </div>
+        <div class="container text-center mt-5 records">
+            <div class="row text-white p-5">
+                <div class="col-3">
+                    <h1>15+</h1>
+                    <p>Years Experience</p>
+                </div>
+                <div class="col-3">
+                    <h1>5+</h1>
+                    <p>Expert Chefs</p>
+                </div>
+                <div class="col-3">
+                    <h1>3</h1>
+                    <p>Culinary Awards</p>
+                </div>
+                <div class="col-3">
+                    <h1>1500+</h1>
+                    <p>Happy Customers</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end features -->
+    <!-- Menu  Start-->
+    <section class="text-white pt-5">
+        <div class="container  text-center">
+            <h2 class="fw-bold">Menu</h2>
+            <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        </div>
+        <div class="container mt-5 ">
+            <div class="menu-select">
+                <ul class=" d-flex gap-5 justify-content-center list-unstyled ">
+                    <li>All</li>
+                    <li>Starters</li>
+                    <li>Main Courses</li>
+                    <li>Desserts</li>
+                    <li>Drinks</li>
+                </ul>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                </div>
+                <div class="col-6">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                </div>
+                <div class="col-6">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                </div>
+                <div class="col-6">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                </div>
+                <div class="col-6">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                </div>
+                <div class="col-6">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                </div>
+                <div class="col-6">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <script src=" ./js/bootstrap.min.js">
+    </script>
 </body>
+
 </html>
