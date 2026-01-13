@@ -12,6 +12,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: overlay;
+  color: white;
 }
 section {
   padding-top: 120px;
@@ -82,13 +83,51 @@ section {
   padding: 20px;
   font-weight: 600;
 }
-.chefs-heading span{
+.chefs-heading span {
   background-color: #ceae7f88;
   padding: 10px;
   border-radius: 40px;
   font-weight: 700;
 }
-.chefs-sec{
- background-color: #585656;
- padding: 20px;
+.chefs-sec {
+  background-color: #585656;
+  padding: 20px;
+}
+.chefs-sec img {
+  height: 270px;
+}
+/* testimonials */
+.main-div-testimonials {
+  background-color: #252a2b;
+}
+.images-person img {
+  height: 100px;
+  border-radius: 50px;
+  margin: 20px 0;
+}
+/* Chefs */
+.chefs-content {
+  background-color: #252a2b;
+}
+.heading-color {
+  color: bisque;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+/* book the table */
+.icon-table {
+  color: bisque;
+}
+.form-table {
+  background-color: #252a2b;
+}
+.form-control {
+  background-color: #252a2b;
+  color: aliceblue;
+}
+.btn-book-table {
+  background-color: #ceaf7f;
+  color: aliceblue;
+  font-weight: 700;
+  padding: 10px 10px;
 }
