@@ -7,10 +7,11 @@
 }
 
 body {
+  background-color: #000000c8;
   background-image: url("./assets/background-image/bg-image.jpg");
-  background-color: transparent;
   background-repeat: no-repeat;
   background-size: cover;
+  background-blend-mode: overlay;
 }
 section {
   padding-top: 120px;
@@ -27,7 +28,7 @@ section {
   border-radius: 40%;
 }
 .about-content {
-  background-color: rgb(186, 186, 186);
+  background-color: rgba(186, 186, 186, 0.114);
 }
 .about-content-col img {
   height: 70%;
@@ -45,10 +46,49 @@ section {
   background-color: lab(100% 0.01 -0.01 / 0.096);
 }
 /* menu */
-.menu-select ul li{
-padding: 10px;
-background-color: rgb(128, 128, 128);
+.menu-select ul li {
+  padding: 10px;
+  background-color: rgba(186, 186, 186, 0.016);
+
   border: solid 1px white;
   border-radius: 25px;
   /* width: 200px; */
+}
+
+.menu-image img {
+  width: 100px;
+  height: 100px;
+}
+.menu-tag {
+  font-size: 14px;
+  padding: 3px 8px;
+  background-color: rgba(255, 228, 196, 0.422);
+  border-radius: 20px;
+  font-weight: 500;
+}
+.price {
+  color: rgb(255, 228, 196);
+}
+.menu-col {
+  background-color: rgba(128, 128, 128, 0.619);
+  padding: 10px;
+  border-radius: 8px;
+}
+.download-menu {
+  text-decoration: none;
+  color: aliceblue;
+  background-color: rgba(255, 166, 0, 0.584);
+  border-radius: 40px;
+  padding: 20px;
+  font-weight: 600;
+}
+.chefs-heading span{
+  background-color: #ceae7f88;
+  padding: 10px;
+  border-radius: 40px;
+  font-weight: 700;
+}
+.chefs-sec{
+ background-color: #585656;
+ padding: 20px;
 }
