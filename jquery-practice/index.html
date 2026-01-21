@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jquery Practice</title>
+
+    <link rel="stylesheet" href="./owl-carousal/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./owl-carousal/dist/assets/owl.theme.default.min.css">
+
+    
+
+</head>
+<body>
+    <h1>Jquery Practice</h1>
+    <p></p>
+    <button id="btn">Show</button>
+    <button id="btn1">Hide</button>
+    <button id="btn-2">
+        Highlight Nested List
+    </button>
+     <button id="has-btn">
+        Highlight has Nested List
+    </button>
+    <button id="filter-btn">
+        Filter Odd List
+    </button>
+    <button id="eq-btn">
+        Eq List
+    </button>
+    <ul>
+        <li>01</li>
+        <li>02
+            <ul>
+                <li>02.1</li>
+                <li>02.2</li>
+                <li>02.3</li>
+                <li>02.4</li>
+                <li>02.5</li>
+            </ul>
+        </li>
+        <li>03</li>
+        <li>04
+            <ul>
+                <li>04.1</li>
+                <li>04.2</li>
+                <li>04.3</li>
+                <li>04.4</li>
+                <li>04.5</li>
+            </ul>
+        </li>
+        <li>05</li>
+    </ul>
+
+    <ul id="fruits">
+        <li>Element 01</li>
+        <li>Element 02</li>
+        <li>Element 03</li>
+        <li>Element 04</li>
+        <li>Element 05</li>
+        <li>Element 06</li>
+        <li>Element 07</li>
+        <li>Element 08</li>
+        <li>Element 09</li>
+    </ul>
+
+
+    <div class="owl-carousel owl-theme">
+        <div class="item"><h4>1</h4></div>
+        <div class="item"><h4>2</h4></div>
+        <div class="item"><h4>3</h4></div>
+        <div class="item"><h4>4</h4></div>
+        <div class="item"><h4>5</h4></div>
+        <div class="item"><h4>6</h4></div>
+        <div class="item"><h4>7</h4></div>
+        <div class="item"><h4>8</h4></div>
+        <div class="item"><h4>9</h4></div>
+        <div class="item"><h4>10</h4></div>
+        <div class="item"><h4>11</h4></div>
+        <div class="item"><h4>12</h4></div>
+    </div>
+
+    <h2>isotope</h2>
+
+    <style>
+        .menu-item{
+            display: inline-block;
+        }
+    </style>
+
+    <div class="menu">
+        <button data-filter="*">All</button>
+        <button data-filter=".lunch">Lunch</button>
+        <button data-filter=".dinner">Dinner</button>
+        <button data-filter=".starter">Starter</button>
+    </div>
+
+    <div class="menu-grid">
+        <div class="menu-item lunch" style="width: 200px; height: 200px; border: solid 1px black; margin:10px;">
+            <h1>Lunch 01</h1>
+        </div>
+        <div class="menu-item lunch" style="width: 200px; height: 200px; border: solid 1px black; margin:10px;">
+            <h1>Lunch 02</h1>
+        </div>
+        <div class="menu-item lunch" style="width: 200px; height: 200px; border: solid 1px black; margin:10px;">
+            <h1>Lunch 03</h1>
+        </div>
+        <div class="menu-item dinner" style="width: 200px; height: 200px; border: solid 1px black; margin:10px;">
+            <h1>Dinner 01</h1>
+        </div>
+        <div class="menu-item dinner" style="width: 200px; height: 200px; border: solid 1px black; margin:10px;">
+            <h1>Dinner 02</h1>
+        </div>
+        <div class="menu-item dinner" style="width: 200px; height: 200px; border: solid 1px black; margin:10px;">
+            <h1>Dinner 03</h1>
+        </div>
+        <div class="menu-item dinner" style="width: 200px; height: 200px; border: solid 1px black; margin:10px;">
+            <h1>Dinner 04</h1>
+        </div>
+        <div class="menu-item dinner" style="width: 200px; height: 200px; border: solid 1px black; margin:10px;">
+            <h1>Dinner 05</h1>
+        </div>
+        <div class="menu-item starter" style="width: 200px; height: 200px; border: solid 1px black; margin:10px;">
+            <h1>Starter 01</h1>
+        </div>
+        <div class="menu-item starter" style="width: 200px; height: 200px; border: solid 1px black; margin:10px;">
+            <h1>Starter 02</h1>
+        </div>
+        <div class="menu-item starter" style="width: 200px; height: 200px; border: solid 1px black; margin:10px;">
+            <h1>Starter 03</h1>
+        </div>
+        <div class="menu-item starter" style="width: 200px; height: 200px; border: solid 1px black; margin:10px;">
+            <h1>Starter 04</h1>
+        </div>
+    </div>
+
+
+    <script src="./jquery-3.7.1.js"></script>
+    <script src="./owl-carousal/dist/owl.carousel.min.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
