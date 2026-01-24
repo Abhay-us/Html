@@ -14,31 +14,48 @@ body {
   background-blend-mode: overlay;
   color: white;
   overflow-x: hidden !important;
-  font-family:"Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Libre Baskerville", serif;
+}
+span {
   font-family: "Libre Baskerville", serif;
 }
 
-.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next{
-  padding:  0 14px 4px 12px !important;
-  font-weight: 900;
-  font-size: 20px;
-  background: #585656;
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next {
+  padding: 0 13px 2px 12px !important;
+  font-weight: 100;
+  font-size: 70px;
+  background: #58565648;
   border-radius: 100%;
   position: absolute;
   z-index: 10;
   top: 50%;
+  line-height: 3.2rem;
 }
-.owl-carousel .owl-nav button.owl-prev{
+.owl-carousel .owl-nav button.owl-prev {
   left: 0px;
 }
-
-.owl-carousel .owl-nav button.owl-next{
-  right: 0px;
+.owl-carousel .owl-nav button.owl-prev:hover {
+  background-color: #ceaf7f;
+  transition: all 0.3s ease;
 }
 
+.owl-carousel .owl-nav button.owl-next {
+  right: 0px;
+}
+.owl-carousel .owl-nav button.owl-next:hover {
+  background-color: #ceaf7f;
+  transition: all 0.3s ease;
+}
 
 section {
   padding-top: 120px;
@@ -50,6 +67,7 @@ section {
 
 a:hover {
   color: #d98b15 !important;
+  transition: all 0.3s ease;
 }
 button {
   /* background-color: #ceaf7f !important; */
@@ -73,6 +91,7 @@ i {
 }
 .dropdown:hover > .dropdown-menu {
   display: block;
+  transition: all 0.3s ease;
 }
 .dropdown-menu {
   background-color: #585656;
@@ -80,7 +99,6 @@ i {
 .deep-dropdown {
   display: none;
   position: absolute;
-  /* top: 50px; */
   right: 159px;
   background-color: #585656;
   color: whitesmoke;
@@ -88,6 +106,7 @@ i {
 }
 .dropdown-li:hover > .deep-dropdown {
   display: block;
+  transition: all 0.3s ease;
 }
 .dropdown-li {
   position: relative;
@@ -97,10 +116,13 @@ i {
 }
 .btn-book {
   background-color: #ceaf7f;
+  width: 40%;
+}
+.btn-menu {
+  width: 45%;
 }
 /* hero banner */
 .status-batch {
-
   background-color: #ceae7f43;
   color: #ceaf7f;
   letter-spacing: 1px;
@@ -108,9 +130,11 @@ i {
 }
 .btn-book:hover {
   transform: translateY(-3px);
+  transition: all 0.3s ease;
 }
 .btn-menu:hover {
   transform: translateY(-3px);
+  transition: all 0.3s ease;
 }
 
 .hero-banner-icon > a {
@@ -127,6 +151,7 @@ i {
 .hero-banner-icon a:hover {
   background-color: #ceaf7f !important;
   transform: translateY(-3px);
+  transition: all 0.3s ease;
 }
 /* about */
 .about-h3::after {
@@ -181,6 +206,7 @@ i {
 /* feature */
 .features-div:hover {
   transform: translateY(-15px);
+  transition: all 0.3s ease;
 }
 .features-div:hover .icon-feature {
   background-color: #ceaf7f;
@@ -209,10 +235,7 @@ i {
   font-family: "Libre Baskerville", sans-serif;
 }
 /* menu */
-.menu-item {
-  width: 50%;
-  padding: 10px;
-}
+
 .menu-heading h2::before {
   content: "";
   display: inline-block;
@@ -269,7 +292,9 @@ i {
 }
 .download-menu:hover {
   transform: translateY(-3px);
+  transition: all 0.3s ease;
 }
+/* chefs */
 .chefs-heading span {
   background-color: #ceae7f88;
   padding: 10px;
@@ -278,6 +303,7 @@ i {
 }
 .chefs-row:hover .chefs-sec .card-img-top {
   transform: translateY(-3px);
+  transition: all 0.3s ease;
 }
 .chefs-sec {
   background-color: #252a2b;
@@ -316,16 +342,16 @@ i {
 
 .images-person img {
   height: 100px;
-  width: 100px !important;
+  width: 7vw !important;
   border-radius: 50px;
-  margin: 20px 110px;
+  margin: 20px 105px;
 }
 
-.owl-item{
+.owl-item {
   opacity: 0.3;
 }
 
-.owl-item.active.center{
+.owl-item.active.center {
   opacity: 1;
 }
 
@@ -379,9 +405,11 @@ i {
 }
 .book-button-2:hover {
   transform: translateY(-3px);
+  transition: all 0.3s ease;
 }
 .book-button-2:hover button {
   box-shadow: 0 8px 20px #ceaf7f;
+  transition: all 0.3s ease;
 }
 /* location */
 .location h2::after {
@@ -438,6 +466,7 @@ i {
 }
 .feature-button:hover {
   background-color: #ceaf7f !important;
+  transition: all 0.3s ease;
 }
 /* Conatact */
 .contact-div h2::after {
@@ -475,11 +504,9 @@ i {
   background-image: url("./assets/images/location-image/map-image.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-blend-mode: overlay;
 
   background-color: #252a2b;
   overflow-x: hidden !important;
-  height: 70vh;
 }
 .form-contact h2::after {
   content: "";
@@ -512,4 +539,38 @@ i {
 }
 .copyright {
   background-color: #252a2b5b;
+}
+@media (min-width: 200px) and (max-width: 640px) {
+  .main-div {
+    padding: 0;
+    width: 100vw;
+    display: flex;
+  }
+
+  .hero-banner-button a {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  /* feature */
+  .features-div {
+    margin-top: 100px;
+  }
+  /* menu */
+  .menu-image {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  /* testinomials */
+  .images-person img {
+    height: 7vh;
+    width: 28vw !important;
+    border-radius: 50px;
+    margin: 20px 85px;
+  }
+}
+@media (min-width: 641px) and (max-width: 720px) {
 }

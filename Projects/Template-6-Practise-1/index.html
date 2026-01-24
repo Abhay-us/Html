@@ -29,16 +29,16 @@
 
 <body>
 
-    <div class=" position-fixed container-fluid main-div">
+    <div class="container-fluid position-fixed main-div">
         <div class="container">
             <header class=" ">
                 <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                    <div class="container-fluid">
+                    <div class="container-fluid  main-header">
                         <a class="navbar-brand text-white fw-bolder" href="./">
                             <i class="fa-solid fa-utensils"></i>
                             NiceResturant
                         </a>
-                        <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse"
+                        <button class="navbar-toggler text-white navbar-button" type="button" data-bs-toggle="collapse"
                             data-bs-target="#bsnavbar" aria-controls="bsnavbar" aria-expanded="false"
                             aria-label="Toggle navigation">
                             <i class="fa-solid fa-bars"></i>
@@ -119,27 +119,26 @@
 
     <section id="hero-banner">
         <div class="container ">
-            <div class="row">
-                <div class="col-6 text-white">
-                    <!-- <div class="  d-inline-block status-batch">Reservation Open</div> -->
+            <div class="row d-flex flex-lg-row flex-column-reverse ">
+                <div class="col-lg-6 col-sm-12 text-white">
                     <p class="px-4 py-2 text-uppercase fw-bold badge rounded-pill status-batch">Reservation Open</p>
                     <h1 class="pt-4 display-4 fw-bold">Savor the Moment,<br> One Bite at a Time</h1>
                     <p class="pt-4">Discover a journey of flavors at our exquisite restaurant. Immerse yourself <br>in a
                         delightful
                         dining experience crafted with passion and precision.</p>
 
-                    <div>
-                        <i class=" text-warning fa-regular fa-clock"></i>
-                        <span class="pt-4">Open Daily: 11am - 10pm</span>
+                    <div class="py-4 d-flex align-items-center justify-content-start hero-button">
+                        <i class=" text-warning me-2 fa-regular fa-clock "></i>
+                        <span class="">Open Daily: 11am - 10pm</span>
                     </div>
-                    <div class=" pt-4  text-uppercase  m-0 hero-banner-button">
-                        <a href="#" class="btn py-3 text-white m-0 px-5  btn-book">Book a
+                    <div class="pt-4 text-uppercase  m-0 hero-banner-button">
+                        <a href="#" class="btn py-3 lh-1 text-white mb-2 px-4  btn-book">Book a
                             Table</a>
                         <a href="#"
-                            class="btn py-3 text-white bg-transparent border-1 border-white  px-5 btn-menu">Explore
+                            class="btn py-3 mb-2 lh-1 text-white bg-transparent border-1 border-white  px-4    btn-menu">Explore
                             Our Menu</a>
                     </div>
-                    <div class="mt-5 d-flex hero-banner-icon ">
+                    <div class="mt-5  d-flex hero-banner-icon ">
                         <a class="text-decoration-none  " href="#"><i class="fa-brands fa-facebook text-light "></i></a>
                         <a class="text-decoration-none " href="#"><i class="fa-brands fa-twitter  text-light"></i></a>
                         <a class=" text-decoration-none " href="#"><i
@@ -148,26 +147,12 @@
                     </div>
                 </div>
 
-                <div class="col-6 image-banner">
+                <div class="col-lg-6 col-sm-12  image-banner">
                     <div class="owl-carousel owl-theme banner-slider">
                         <div class="item"><img src="./assets/images/banner-image/first-banner.jpg" alt="ddd"></div>
-                        <div class="item"><img src="./assets/images/book a table/book-a-table-image.jpg" alt="ddd">
+                        <div class="item"><img src="./assets/images/banner-image/first-banner-2.jpg" alt="ddd">
                         </div>
-                        <div class="item"><img src="./assets/images/banner-image/first-banner.jpg" alt="ddd"></div>
-                        <div class="item"><img src="./assets/images/book a table/book-a-table-image.jpg" alt="ddd">
-                        </div>
-                        <div class="item"><img src="./assets/images/banner-image/first-banner.jpg" alt="ddd"></div>
-                        <div class="item"><img src="./assets/images/book a table/book-a-table-image.jpg" alt="ddd">
-                        </div>
-                        <div class="item"><img src="./assets/images/banner-image/first-banner.jpg" alt="ddd"></div>
-                        <div class="item"><img src="./assets/images/book a table/book-a-table-image.jpg" alt="ddd">
-                        </div>
-                        <div class="item"><img src="./assets/images/banner-image/first-banner.jpg" alt="ddd"></div>
-                        <div class="item"><img src="./assets/images/book a table/book-a-table-image.jpg" alt="ddd">
-                        </div>
-                        <div class="item"><img src="./assets/images/banner-image/first-banner.jpg" alt="ddd"></div>
-                        <div class="item"><img src="./assets/images/book a table/book-a-table-image.jpg" alt="ddd">
-                        </div>
+                        <div class="item"><img src="./assets/images/banner-image/first-banner-3.jpg" alt="ddd"></div>
                     </div>
                 </div>
             </div>
@@ -178,9 +163,9 @@
 
     <!-- about section start -->
     <section>
-        <div class="container d-flex flex-row border-bottom pb-5">
-            <div class="col-6 text-white ">
-                <h3 class="fw-bold about-h3">Our Culinary Journey</h3>
+        <div class="container d-lg-flex flex-row border-bottom pb-5">
+            <div class="col-lg-6 col-sm-12 text-white ">
+                <h3 class="fw-bold fs-2 about-h3">Our Culinary Journey</h3>
                 <p class="fst-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim
                     in eros elementum tristique.</p>
                 <p>Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
@@ -199,9 +184,10 @@
                     </div>
                 </div>
             </div>
-            <div class="col-6 position-relative about-content-col  px-4  ">
+            <div class="col-lg-6 col-sm-12 position-relative about-content-col  px-4  ">
                 <img class="position-relative about-image-1" src="./assets/images/about-images/about_us_1.jpg" alt="hd">
-                <img class="about-image-2" src="./assets/images/about-images/about_us_2.jpg" alt="dds">
+                <img class="d-none d-md-block about-image-2 " src="./assets/images/about-images/about_us_2.jpg"
+                    alt="dds">
                 <span class="d-flex align-items-center justify-content-center text-center establishment-year">Est.<br>
                     2005</span>
             </div>
@@ -210,61 +196,61 @@
     <!-- about us end -->
     <!-- features start -->
     <section class="pt-4">
-        <div class="container d-flex  text-center text-white ">
-            <div class="col-3 features-div">
+        <div class="container d-lg-flex text-center text-white ">
+            <div class="col-lg-3  features-div">
                 <div>
                     <i class="fa-solid fa-award icon-feature"></i>
                 </div>
-                <h5>Award Winning</h5>
+                <h5 class="pt-3">Award Winning</h5>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.
                 </p>
             </div>
-            <div class="col-3 features-div">
+            <div class="col-lg-3  features-div">
                 <div>
                     <i class="fa-solid fa-egg  icon-feature"></i>
                 </div>
-                <h5>Award Winning</h5>
+                <h5 class="pt-3">Award Winning</h5>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.
                 </p>
             </div>
-            <div class="col-3 features-div">
+            <div class="col-lg-3  features-div">
                 <div>
                     <i class="fa-solid fa-user-group  icon-feature"></i>
                 </div>
-                <h5>Award Winning</h5>
+                <h5 class="pt-3">Award Winning</h5>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.
+                    Lorem ipsum dolor sit amet, consectetur adipisc ing elit. Suspendisse varius enim in eros.
                 </p>
             </div>
-            <div class="col-3 features-div">
+            <div class="col-lg-3 features-div">
                 <div>
                     <i class="fa-solid fa-heart  icon-feature"></i>
                 </div>
-                <h5>Award Winning</h5>
+                <h5 class="pt-3">Award Winning</h5>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.
                 </p>
             </div>
         </div>
         <div class="container text-center mt-5 records">
-            <div class="row text-white p-5 ">
-                <div class="col-3 records-content">
+            <div class="row text-white  p-5 ">
+                <div class="col-lg-3 pt-5 records-content">
                     <h1>15+</h1>
-                    <p>Years Experience</p>
+                    <p class="pt-3">Years Experience</p>
                 </div>
-                <div class="col-3 records-content">
+                <div class="col-lg-3 pt-5 records-content">
                     <h1>5+</h1>
-                    <p>Expert Chefs</p>
+                    <p class="pt-3">Expert Chefs</p>
                 </div>
-                <div class="col-3 records-content">
+                <div class="col-lg-3 pt-5 records-content">
                     <h1>3</h1>
-                    <p>Culinary Awards</p>
+                    <p class="pt-3">Culinary Awards</p>
                 </div>
-                <div class="col-3 records-content">
+                <div class="col-lg-3 pt-5 records-content">
                     <h1>1500+</h1>
-                    <p>Happy Customers</p>
+                    <p class="pt-3">Happy Customers</p>
                 </div>
             </div>
         </div>
@@ -278,20 +264,20 @@
         </div>
         <div class="container mt-5 ">
             <div class="menu-select">
-                <ul class="  d-flex gap-5 justify-content-center list-unstyled ">
-                    <li class="border-warning text-white fw-bold bg-warning " data-filter="*">All</li>
-                    <li class="border-warning text-white fw-bold bg-warning " data-filter=".starters">Starters</li>
-                    <li class="border-warning text-white fw-bold bg-warning " data-filter=".main-course">Main Courses
+                <ul class="d-flex flex-row flex-wrap justify-content-center list-unstyled ">
+                    <li class="border-warning text-white fw-bold bg-warning m-1" data-filter="*">All</li>
+                    <li class="border-warning text-white fw-bold bg-warning m-1" data-filter=".starters">Starters</li>
+                    <li class="border-warning text-white fw-bold bg-warning m-1" data-filter=".main-course">Main Courses
                     </li>
-                    <li class="border-warning text-white fw-bold bg-warning " data-filter=".desserts">Desserts</li>
-                    <li class="border-warning text-white fw-bold bg-warning " data-filter=".drinks">Drinks</li>
+                    <li class="border-warning text-white fw-bold bg-warning m-1" data-filter=".desserts">Desserts</li>
+                    <li class="border-warning text-white fw-bold bg-warning m-1" data-filter=".drinks">Drinks</li>
                 </ul>
             </div>
         </div>
         <div class="container">
             <div class="row menu-dish">
-                <div class="col-6 menu-item starters  ">
-                    <div class=" d-flex align-items-center gap-4 menu-col menu-image">
+                <div class="col-lg-6 col-12  menu-item starters  ">
+                    <div class="d-flex flex-lg-row flex-column  mt-3  align-items-center  gap-4 menu-col menu-image">
                         <img src="./assets/images/menu-images/menu-image-1.jpg" alt="dd">
                         <div class="menu-content">
                             <h5>Bruschetta Trio <span class="menu-tag">Vegetarian</span></h5>
@@ -302,8 +288,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6 menu-item starters ">
-                    <div class=" d-flex align-items-center gap-4 menu-col menu-image">
+                <div class="col-lg-6 col-12 menu-item starters ">
+                    <div class=" d-flex flex-lg-row flex-column  mt-3     align-items-center gap-4 menu-col menu-image">
                         <img src="./assets/images/menu-images/menu-image-2.jpg" alt="dd">
                         <div class="menu-content">
                             <h5>Calamari Fritti <span class="menu-tag">Seafood</span></h5>
@@ -314,8 +300,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6 menu-item main-course  ">
-                    <div class=" d-flex align-items-center gap-4 menu-col  menu-image">
+                <div class="col-lg-6 col-12 menu-item main-course  ">
+                    <div class=" d-flex flex-lg-row flex-column  mt-3    align-items-center gap-4 menu-col  menu-image">
                         <img src="./assets/images/menu-images/menu-image-3.jpg" alt="dd">
                         <div class="menu-content">
                             <h5>Wild Mushroom Risotto <span class="menu-tag">Vegetarian</span></h5>
@@ -326,8 +312,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6 menu-item px-2 main-course  ">
-                    <div class=" d-flex align-items-center gap-4 menu-col menu-image">
+                <div class="col-lg-6 col-12 menu-item px-2 main-course  ">
+                    <div class=" d-flex flex-lg-row flex-column  mt-3     align-items-center gap-4 menu-col menu-image">
                         <img src="./assets/images/menu-images/menu-image-4.jpg" alt="dd">
                         <div class="menu-content">
                             <h5> Braised Lamb Shank<span class="menu-tag">Chef's Choice</span></h5>
@@ -338,8 +324,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6 menu-item  desserts  ">
-                    <div class=" d-flex align-items-center gap-4 menu-col menu-image">
+                <div class="col-lg-6 col-12 menu-item  desserts  ">
+                    <div class=" d-flex flex-lg-row flex-column  mt-3    align-items-center gap-4 menu-col menu-image">
                         <img src="./assets/images/menu-images/menu-image-5.jpg" alt="dd">
                         <div class="menu-content">
                             <h5>Chocolate Lava Cake<span class="menu-tag">Gluten Free</span></h5>
@@ -350,8 +336,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6 menu-item desserts ">
-                    <div class=" d-flex align-items-center gap-4 menu-col menu-image">
+                <div class="col-lg-6 col-12 menu-item desserts ">
+                    <div class=" d-flex flex-lg-row flex-column mt-3 align-items-center gap-4 menu-col menu-image">
                         <img src="./assets/images/menu-images/menu-image-6.jpg" alt="dd">
                         <div class="menu-content">
                             <h5>Tiramisu <span class="menu-tag">Classic</span></h5>
@@ -362,8 +348,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6 menu-item  drinks ">
-                    <div class=" d-flex align-items-center gap-4 menu-col menu-image">
+                <div class="col-lg-6 col-12 menu-item  drinks ">
+                    <div class=" d-flex flex-lg-row flex-column  mt-3     align-items-center gap-4 menu-col menu-image">
                         <img src="./assets/images/menu-images/menu-image-7.jpg" alt="dd">
                         <div class="menu-content">
                             <h5>Signature Cocktail <span class="menu-tag">Alcholic</span></h5>
@@ -374,8 +360,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6 menu-item  drinks">
-                    <div class=" d-flex align-items-center gap-4 menu-col menu-image">
+                <div class="col-lg-6 col-12 menu-item  drinks">
+                    <div class=" d-flex flex-lg-row flex-column  mt-3     align-items-center gap-4 menu-col menu-image">
                         <img src="./assets/images/menu-images/menu-image-8.jpg" alt="dd">
                         <div class="menu-content">
                             <h5>Berry Smoothie <span class="menu-tag">Non-Alcholic</span></h5>
@@ -385,7 +371,7 @@
                             </div>
                         </div>
                     </div>
-                </div>Documentation Dekar dependent mantra. Loop the truth in Kamala 20 Lika. Mad at me? Automatic.
+                </div>
             </div>
         </div>
 
@@ -395,14 +381,14 @@
             </a>
         </div>
         <div class="container mt-5">
-            <div class="row">
+            <div class="row ">
                 <div class="chefs-heading">
                     <span><i class="fa-solid fa-award"></i>Chef's Specials</span>
                 </div>
             </div>
             <div class="row chefs-row ">
-                <div class=" col-6  mt-3">
-                    <div class="  chefs-sec">
+                <div class=" col-lg-6   mt-3">
+                    <div class="chefs-sec">
                         <img src="./assets/images/chefs-special-images/chef-special-image-1.jpg" class="card-img-top"
                             alt="...">
                         <a class="position-relative text-decoration-none text-white mx-2 type-food bg-warning rounded-pill p-2"
@@ -420,7 +406,7 @@
                         </div>
                     </div>
                 </div>
-                <div class=" col-6 mt-3">
+                <div class=" col-lg-6 mt-3">
                     <div class="chefs-sec">
                         <img src="./assets/images/chefs-special-images/chef-special-image-2.jpg" class="card-img-top"
                             alt="...">
@@ -466,8 +452,8 @@
                             Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus.
                             Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
                         </p>
-                        <div class="images-person text-center ">
-                            <img src="./assets/images/testinomals-images/testimonials-image-1.jpg" alt="ss">
+                        <div class="text-center  images-person  ">
+                            <img class="" src="./assets/images/testinomals-images/testimonials-image-1.jpg" alt="ss">
                             <h3>Saul Goodman</h3>
                             <p class="fs-4 fw-light">Ceo &amp; Founder</p>
                         </div>
@@ -486,7 +472,7 @@
                             Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus.
                             Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
                         </p>
-                        <div class="images-person text-center ">
+                        <div class=" text-center images-person ">
                             <img src="./assets/images/testinomals-images/testimonials-image-2.jpg" alt="ss">
                             <h3>Saul Goodman</h3>
                             <p class="fs-4 fw-light">Ceo &amp; Founder</p>
@@ -506,7 +492,7 @@
                             Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus.
                             Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
                         </p>
-                        <div class="images-person text-center ">
+                        <div class="text-center images-person  ">
                             <img src="./assets/images/testinomals-images/testimonials-image-3.jpg" alt="ss">
                             <h3>Saul Goodman</h3>
                             <p class="fs-4 fw-light">Ceo &amp; Founder</p>
@@ -526,7 +512,7 @@
                             Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus.
                             Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
                         </p>
-                        <div class="images-person text-center ">
+                        <div class=" text-center images-person  ">
                             <img src="./assets/images/testinomals-images/testimonials-image-4.jpg" alt="ss">
                             <h3>Saul Goodman</h3>
                             <p class="fs-4 fw-light">Ceo &amp; Founder</p>
@@ -567,16 +553,17 @@
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-6 img-100 chefs-content">
+                    <div class="col-lg-6 img-100 chefs-content">
                         <img src="./assets/images/chefs/chefs-image-1.jpg" alt="ss" class="img-fluid">
                         <div class="mt-3 p-4">
                             <h5 class="heading-color">Executive Chef</h5>
                             <h1>Gabriel Turner</h1>
-                            <div class=" mt-3 d-flex span-about-content">
-                                <span class=" border p-2 rounded-pill"><i class="fa-solid fa-star text-warning "></i>
+                            <div class=" mt-3 d-flex flex-lg-row flex-column span-about-content">
+                                <span class=" border p-2 mt-3 mx-2 rounded-pill"><i
+                                        class="fa-solid fa-star text-warning "></i>
                                     James Beard Award</span>
-                                <span class=" border p-2 rounded-pill mx-3"><i
-                                        class="fa-solid fa-star text-warning "></i> Two Michelin Stars</span>
+                                <span class=" border p-2 mt-3 mx-2 rounded-pill "><i
+                                        class="fa-solid fa-star text-warning  "></i> Two Michelin Stars</span>
                             </div>
                             <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
                                 luctus
@@ -587,10 +574,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6">
-                        <div class="container">
+                    <div class="col-lg-6 ">
+                        <div class="container p-0">
                             <div class="row">
-                                <div class="col-6 chefs-content ">
+                                <div class="col-lg-6 chefs-content ">
                                     <img src="./assets/images/chefs/chefs-image-2.jpg" alt="ss" class="img-fluid ">
                                     <div class="mt-3 p-4">
                                         <h3 class="">Sophia Martinez</h3>
@@ -601,7 +588,7 @@
                                             nec ullamcorper mattis, pulvinar dapibus leo.</p>
                                     </div>
                                 </div>
-                                <div class="col-6 chefs-content ">
+                                <div class="col-lg-6 chefs-content ">
                                     <img src="./assets/images/chefs/chefs-image-3.jpg" alt="ss" class="img-fluid ">
                                     <div class="mt-3 p-4">
                                         <h3 class="">Marcus Chen</h3>
@@ -612,7 +599,7 @@
                                             nec ullamcorper mattis, pulvinar dapibus leo.</p>
                                     </div>
                                 </div>
-                                <div class="col-6 chefs-content">
+                                <div class="col-lg-6  p-0 chefs-content">
                                     <img src="./assets/images/chefs/chefs-image-4.jpg" alt="ss" class="img-fluid ">
                                     <div class="mt-3 p-4">
                                         <h3 class="">Jonathan Williams</h3>
@@ -623,7 +610,7 @@
                                             nec ullamcorper mattis, pulvinar dapibus leo.</p>
                                     </div>
                                 </div>
-                                <div class="col-6 chefs-content ">
+                                <div class="col-lg-6 chefs-content ">
                                     <img src="./assets/images/chefs/chefs-image-5.jpg" alt="ss" class="img-fluid ">
                                     <div class="mt-3 p-4">
                                         <h3 class="">Isabella Romano</h3>
@@ -647,7 +634,7 @@
     <section>
         <div class="container table-container">
             <div class="row tab-content">
-                <div class="col-6">
+                <div class="col-lg-6">
                     <h1>Book Your Table</h1>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste est accusamus, odi Lorem ipsum
                         dolor sit amet consectetur adipisicing elit.
@@ -682,7 +669,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6 ">
+                <div class="col-lg-6 ">
                     <img class="img-fluid" src="./assets/images/book a table/book-a-table-image.jpg" alt="...">
                 </div>
             </div>
@@ -693,21 +680,21 @@
                             <h3>Book A Table</h3>
                             <p>Please fill the form below to make a reservation</p>
                         </div>
-                        <form class="px-5">
+                        <form class="">
                             <div class="row">
-                                <div class="col-lg-4 ">
+                                <div class="col-lg-4 mt-3 ">
                                     <input type="text" name="name" class="form-control  text-light bg-transparent"
                                         placeholder="Your Name" required="">
                                 </div>
-                                <div class="col-lg-4 form-group">
+                                <div class="col-lg-4 mt-3 form-group">
                                     <input type="email" class="form-control  text-light bg-transparent" name="email"
                                         placeholder="Your Email" required="">
                                 </div>
-                                <div class="col-lg-4 form-group">
+                                <div class="col-lg-4 mt-3 form-group">
                                     <input type="text" class="form-control  text-light bg-transparent" name="phone"
                                         placeholder="Your Phone" required="">
                                 </div>
-                                <div class="col-lg-4 mt-2 form-group">
+                                <div class="col-lg-4 mt-3 form-group">
                                     <select name="people" class="form-control  text-light bg-transparent" required="">
                                         <option value="">Number of guests</option>
                                         <option value="1">1 Person</option>
@@ -718,11 +705,11 @@
                                         <option value="6">6+ People</option>
                                     </select>
                                 </div>
-                                <div class="col-lg-4 mt-2 form-group">
+                                <div class="col-lg-4 mt-3 form-group">
                                     <input type="text" name="date" class="form-control  text-light bg-transparent"
                                         placeholder="Date" required="">
                                 </div>
-                                <div class="col-lg-4 mt-2 form-group">
+                                <div class="col-lg-4 mt-3 form-group">
                                     <input type="text" class="form-control bg-transparent  text-light" name="time"
                                         id="time" placeholder="Time" required="">
                                 </div>
@@ -752,12 +739,12 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-6 mt-5  ">
+                <div class="col-lg-6 mt-5  ">
                     <div class="map-div ">
                         <img src="./assets/images/location-image/map-image.jpg" class="" alt="dd">
                     </div>
                 </div>
-                <div class="col-6 mt-5">
+                <div class="col-lg-6 mt-5">
                     <div class="card-bg-color p-5">
                         <div class="location-header text-center ">
                             <h3>Find Us</h3>
@@ -807,7 +794,7 @@
                             </div>
                         </div>
                         <div class=" d-flex mt-5 ">
-                            <div class="col-6   ">
+                            <div class="col-lg-6   ">
                                 <div
                                     class=" border border-light rounded-3 d-flex align-content-center justify-content-center m-2 btn-book-div">
                                     <a href="#" class="btn-book text-decoration-none text-white   p-3">Make a
@@ -815,7 +802,7 @@
 
                                 </div>
                             </div>
-                            <div class="col-6">
+                            <div class="col-lg-6">
                                 <div
                                     class="  border border-warning rounded-3 d-flex align-content-center justify-content-center m-2">
                                     <a href="#" class="btn-contact text-decoration-none text-warning  p-3">Contact
@@ -1160,12 +1147,13 @@
 
 
     <script src="./jquery-3.7.1.js"></script>
+    <script src=" ./js/bootstrap.min.js"></script>
     <script src="./owl-carousal/dist/owl.carousel.min.js"></script>
     <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
 
     <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
     <script src="script.js"></script>
-    <script src=" ./js/bootstrap.min.js">
+
     </script>
 </body>
 

@@ -4,6 +4,11 @@ $(document).ready(function () {
     margin: 0,
     nav: true,
     dots: false,
+    loop: true,
+    speed: 800,
+    autoplay: {
+      delay: 5000,
+    },
     responsive: {
       0: {
         items: 1,
@@ -22,7 +27,7 @@ $(document).ready(function () {
     autoplayTimeout: 2000,
     margin: 10,
     dots: true,
-    center:true,
+    center: true,
     responsive: {
       0: {
         items: 1,
