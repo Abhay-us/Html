@@ -72,6 +72,8 @@ a:hover {
 button {
   /* background-color: #ceaf7f !important; */
 }
+input[type="text"] {
+}
 
 /* 
  */
@@ -208,6 +210,8 @@ i {
   transform: translateY(-15px);
   transition: all 0.3s ease;
 }
+.icon-feature {
+}
 .features-div:hover .icon-feature {
   background-color: #ceaf7f;
   transition: all 0.3s ease;
@@ -218,11 +222,12 @@ i {
   transition-behavior: normal;
 }
 .icon-feature {
-  font-size: 30px;
-  width: 70px;
-  padding: 20px 0;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 100px;
   border: 1px solid rgb(15, 15, 15);
-  border-radius: 50%;
+  border-radius: 100px;
   background-color: #ceae7f55;
 }
 .records {
@@ -254,17 +259,33 @@ i {
   margin-bottom: 10px;
   margin-left: 10px;
 }
+.menu-select ul li.active {
+  background-color: #ceaf7f !important;
+}
+
 .menu-select ul li {
-  padding: 10px;
-  background-color: rgba(186, 186, 186, 0.016);
-  border: solid 1px white;
+  padding: 8px 16px;
+  font-size: 1rem;
+  cursor: pointer;
   border-radius: 25px;
-  /* width: 200px; */
+  background-color: #252a2b;
+  transition: all 0.3s ease;
+}
+.menu-select ul li:hover {
+  background-color: #ceae7f29;
+}
+.menu-item:hover {
+  transform: translateY(-3px);
+  transition: all 0.3s ease;
 }
 
 .menu-image img {
   width: 100px;
   height: 100px;
+  transition: all ease 0.3s;
+}
+.menu-image img:hover {
+  transform: scale(1.05);
 }
 .menu-tag {
   font-size: 14px;
@@ -296,14 +317,10 @@ i {
 }
 /* chefs */
 .chefs-heading span {
-  background-color: #ceae7f88;
+  background-color: #ceae7f45;
   padding: 10px;
   border-radius: 40px;
   font-weight: 700;
-}
-.chefs-row:hover .chefs-sec .card-img-top {
-  transform: translateY(-3px);
-  transition: all 0.3s ease;
 }
 .chefs-sec {
   background-color: #252a2b;
@@ -316,6 +333,10 @@ i {
 }
 .chefs-sec img {
   height: 270px;
+  transition: all 0.3s ease;
+}
+.chefs-sec img:hover {
+  transform: scale(1.05);
 }
 /* testimonials */
 .main-div-testimonials {
@@ -361,6 +382,10 @@ i {
 .chefs-content {
   background-color: #252a2b;
 }
+.chefs-content img:hover {
+  transform: scale(1.05);
+  transition: transform 0.5s;
+}
 .chefs-name h2::after {
   content: "";
   display: inline-block;
@@ -372,6 +397,15 @@ i {
 }
 .span-about-content span {
   background-color: #ceae7f47;
+  font-size: 0.9rem;
+  padding: 0.35rem 0.8rem;
+  border-radius: 50px;
+  display: inline-flex;
+  align-items: center;
+}
+.span-about-content span i {
+  margin-right: 0.4rem;
+  color: #ceaf7f;
 }
 
 .chefs-name h2::before {
@@ -391,6 +425,10 @@ i {
 /* book the table */
 .icon-table {
   color: bisque;
+}
+.book-table-image img:hover {
+  transform: scale(1.03);
+  transition: all ease 0.5s;
 }
 .form-table {
   background-color: #252a2b;
@@ -446,6 +484,10 @@ i {
 }
 .location-icon i {
   background-color: #ceae7f7c;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  color: #ceaf7f;
 }
 .hours-grid {
   display: grid;
@@ -455,13 +497,50 @@ i {
 .btn-book-div {
   background-color: #ceaf7f;
   white-space: nowrap;
+  border-color: #ceaf7f !important ;
+}
+.btn-book-div:hover {
+  transform: translateY(-3px);
+  transition: all 0.5s ease;
 }
 /* moments */
 .heading-moment {
   background-color: #ceae7f4e;
 }
 .moments-icon {
-  background-color: #ceae7f46;
+  background-color: #ceae7f7c;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  color: #ceaf7f;
+}
+.moment-content span {
+  padding: 6px 16px;
+  border-radius: 30px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  font-family: sans-serif;
+  background-color: #384143b4;
+}
+.moments-div:hover {
+  transform: translateY(-10px);
+  transition: all 0.5s ease;
+}
+.image-sec-moments img:hover {
+  transform: scale(1.05);
+  transition: all 0.5s ease;
+}
+.reserve-value-button button {
+  padding: 12px 30px;
+  border-radius: 50px;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 1.05rem;
+  transition: all 0.3s ease;
+  background-color: #ceaf7f;
+}
+.reserve-value-button button:hover {
+  transform: translateY(-3px);
 }
 /* features */
 .features-event h1::after {
@@ -478,6 +557,21 @@ i {
   background-color: #ceaf7f !important;
   transition: all 0.3s ease;
 }
+.feature-button {
+  padding: 8px 25px;
+  border-radius: 30px;
+  font-weight: 600;
+  border: 2px solid #ceaf7f;
+  background-color: transparent;
+  transition: all 0.3s ease;
+  color: white;
+}
+.feature-card ul li i {
+  font-size: 0.95rem;
+  margin-right: 5px;
+  color: #ceaf7f;
+}
+
 /* Conatact */
 .contact-div h2::after {
   content: "";
@@ -507,9 +601,14 @@ i {
   left: 50%;
   transform: translateX(-50%);
 }
-.icon i {
+
+.contact-icon {
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
   background-color: #ceae7f5a;
 }
+
 .map-div {
   background-image: url("./assets/images/location-image/map-image.jpg");
   background-repeat: no-repeat;
@@ -536,16 +635,36 @@ i {
   /* margin-top: -120px; */
   transform: translateY(-7rem);
 }
+.send-messgae {
+  padding: 12px 30px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  background-color: #ceaf7f;
+}
+.send-messgae:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px;
+}
 /* footer */
 .footer-top {
   border-top: solid 1px rgba(255, 255, 255, 0.218);
 }
 .footer-icon i {
-  border: 1px solid white;
+  border: 2px solid white;
   border-radius: 50%;
-  padding: 15px;
-  width: 50px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
   margin: 2px;
+  font-size: 16px;
+}
+.footer-icon i:hover {
+  border-color: #ceaf7f;
+  color: #ceaf7f;
+  transition: all 0.3s ease;
 }
 .copyright {
   background-color: #252a2b5b;
@@ -579,6 +698,18 @@ i {
     height: 60px;
     width: 60px;
     border-radius: 50px;
+  }
+  /* chefs */
+  .span-about-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-bottom: 1.25rem;
+  }
+  .hours-grid {
+    display: grid;
+    grid-gap: 0.5rem;
+    grid-template-columns: 1fr !important;
   }
 }
 @media (min-width: 641px) and (max-width: 720px) {
