@@ -210,8 +210,6 @@ i {
   transform: translateY(-15px);
   transition: all 0.3s ease;
 }
-.icon-feature {
-}
 .features-div:hover .icon-feature {
   background-color: #ceaf7f;
   transition: all 0.3s ease;
@@ -222,9 +220,10 @@ i {
   transition-behavior: normal;
 }
 .icon-feature {
-  width: 60px;
-  height: 60px;
-  line-height: 60px;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  font-size: 28px;
   border-radius: 100px;
   border: 1px solid rgb(15, 15, 15);
   border-radius: 100px;
@@ -306,9 +305,9 @@ i {
 .download-menu-content {
   text-decoration: none;
   color: aliceblue;
-  background-color: rgba(255, 166, 0, 0.584);
+  background-color: #ceaf7f;
   border-radius: 40px;
-  padding: 20px;
+  padding: 10px 25px;
   font-weight: 600;
 }
 .download-menu:hover {
@@ -317,10 +316,17 @@ i {
 }
 /* chefs */
 .chefs-heading span {
-  background-color: #ceae7f45;
-  padding: 10px;
-  border-radius: 40px;
-  font-weight: 700;
+  background-color: #ceae7f21;
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding: 12px 20px;
+  border-radius: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.chefs-heading span i {
+  font-weight: 600;
+  color: #ceaf7f;
+  font-size: 1.1rem;
 }
 .chefs-sec {
   background-color: #252a2b;
@@ -436,6 +442,10 @@ i {
 .form-control {
   background-color: #252a2b;
   color: aliceblue;
+  font-size: 0.95rem;
+  padding: 0.8rem 1.2rem;
+  border-radius: 5px;
+  border: 1pxx solid rgba(0, 0, 0, 0);
 }
 .form-group {
   font-family: Arial, Helvetica, sans-serif;
@@ -443,8 +453,9 @@ i {
 .btn-book-table-2 {
   background-color: #ceaf7f;
   color: aliceblue;
-  font-weight: 700;
-  padding: 10px 10px;
+  padding: 12px 36px;
+  font-weight: 600;
+  font-size: 1rem;
 }
 .book-button-2:hover {
   transform: translateY(-3px);
@@ -538,6 +549,7 @@ i {
   font-size: 1.05rem;
   transition: all 0.3s ease;
   background-color: #ceaf7f;
+  
 }
 .reserve-value-button button:hover {
   transform: translateY(-3px);
