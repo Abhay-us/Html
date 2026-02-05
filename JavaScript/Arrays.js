@@ -177,3 +177,73 @@ document.writeln("Index of Element 50 of Array E = " + E.indexOf(50,5));
 document.writeln("<br />");
 document.writeln("Index of Element 50 of Array E = " + E.lastIndexOf(50, 1))
 document.writeln("<br />");
+
+document.writeln("Array E = "+ E);
+document.writeln("<br />");
+
+E.map((i)=> {
+    document.writeln("Element = " + i);
+    document.writeln("<br />");
+})
+
+E.map((i,idx)=> {
+    document.writeln("Element at index "+idx+" = " + i);
+    document.writeln("<br />");
+})
+
+// print array elements which is greater than 40 by using map() method
+document.writeln("<br />");
+document.writeln("print array elements which is greater than 40 <br />");
+E.map((i)=> {
+    if(i>40){
+        document.writeln("Element = " + i);
+        document.writeln("<br />");
+    }
+})
+
+// print array elements which is greater than 40 by using filter method
+document.writeln("<br />");
+document.writeln("print array elements which is greater than 40 <br />");
+document.writeln(E.filter((i)=> i>40))
+
+
+// reduce method
+document.writeln("<br />");
+document.writeln("print array elements which is greater than 40 <br />");
+document.writeln(E.reduce((i)=> i+=i))
+
+// find method
+document.writeln("<br />");
+document.writeln("print array elements which is equal to 40 <br />");
+document.writeln(E.find((i)=> i==40))
+document.writeln(E.findIndex((i)=> i==40))
+document.writeln(E.findLast((i)=> i==40))
+document.writeln(E.findLastIndex((i)=> i==40))
+
+document.writeln("<br />Array E = " + E +"<br />");
+document.writeln("<br />Array E at index 3 = " +E.at(3))
+document.writeln("<br />Array E at index 3 = " +E[3])
+
+let F = [10,20,30,40,50,[90,80,70,[1,2,3,4],45], 56,78,58] 
+document.writeln("<br>Array F = " + F+"<br>"); 
+document.writeln(F.flat()); 
+document.writeln(F.flat(1)); 
+
+F.forEach((i)=> document.writeln(i));
+
+const iterator = E.entries();
+document.writeln("<br>" + iterator.next());
+document.writeln(iterator.next().value);
+
+document.writeln(E.join("  XOX  ")); 
+document.writeln(E.keys()); 
+
+const keysIterator = E.keys()
+document.writeln("<br>" + iterator.next().value);
+document.writeln("<br>" + iterator.next());
+document.writeln("<br>" + iterator.next());
+document.writeln("<br>" + iterator.next());
+document.writeln("<br>" + iterator.next());
+document.writeln("<br>" + iterator.next());
+
+
