@@ -58,7 +58,7 @@ const products = [
 //     for (const key in product) {
 //         if (product.hasOwnProperty(key)) {
 //             // console.log(key, product[key])
-//             document.writeln(key)
+//             document.writeln(key) 
 //             document.writeln(" = " + product[key])
 //             document.writeln("<br>")
 //         }
@@ -74,3 +74,45 @@ const products = [
 //     document.writeln("year = " + product.year +"<br>")
 //     document.writeln("<br>")
 // }
+
+// const cols = [
+//   document.getElementById("col-1"),
+//   document.getElementById("col-2"),
+//   document.getElementById("col-3"),
+//   document.getElementById("col-4"),
+//   document.getElementById("col-5"),
+// ];
+
+// function productCard(product) {
+//   return `
+//     <div>
+//       <img src="${product.imgurl}" class="img-fluid " />
+//       <h6>${product.name}</h6>
+//       <p>${product.description}</p>
+//       <p>${product.price} <span>(${product.offer}% OFF)</span></p>
+//     </div>
+//   `;
+// }
+
+// for (let i = 0; i < products.length; i++) {
+//   // document.getElementsByClassName("product-card")[i].innerHTML = productCard(products[i]);
+//   document.getElementsByClassName("product-card")[i].innerHTML = `
+//       <img src="${products[i].imgurl}" class="img-fluid " />
+//       <h6>${products[i].name}</h6>
+//       <p>${products[i].description}</p>
+//       <p>${products[i].price} <span>(${products[i].offer}% OFF)</span></p>
+//   `;
+// }
+
+products.map((product, i)=>{
+  document.getElementsByClassName("product-card")[i].innerHTML = `
+    <div>
+      <img src="${product.imgurl}" class="img-fluid " />
+      <h6>${product.name}</h6>
+      <p>${product.description}</p>
+      <p>${product.price} <span>(${product.offer}% OFF)</span></p>
+    </div>
+  `;
+
+  return document.getElementsByClassName("product-card")[i]
+})

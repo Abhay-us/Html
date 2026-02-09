@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Details</title>
+</head>
+
+<body>
+    <h2>Student Details </h2>
+    <p>Student name = <span id="sname"></span></p>
+
+
+    <h2>Student Academic Details </h2>
+    <p>Fill Academic Information</p>
+
+    <form method="post">
+        <label>School:</label><br>
+        <input type="text" name="schoolName" placeholder="Enter School/College Name">
+        <br><br>
+
+        <label>Class:</label>
+        <input type="text" name="classCourse" placeholder="Example: 10th / BCA / B.Tech">
+        <br><br>
+
+        <label>Roll Number:</label>
+        <input type="text" name="rollNo" placeholder="Enter Roll Number">
+        <br><br>
+
+        <label> University:</label>
+        <input type="text" name="board" placeholder="Example: CBSE / UP Board / AKTU">
+        <br><br>
+
+        <label>Percentage :</label>
+        <input type="text" name="marks" placeholder="Example: 85% or 8.2 CGPA">
+        <br><br>
+
+    </form>
+
+    <script>
+        function sname(){
+            console.log(localStorage.getItem("studentName"))
+            var sname = localStorage.getItem("studentName");
+            return sname || "ad";
+        }
+            document.getElementById("sname").innerHTML = sname();
+        </script>
+
+</body>
+
+</html>
