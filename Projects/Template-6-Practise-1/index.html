@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="./owl-carousal/dist/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="./owl-carousal/dist/assets/owl.theme.default.min.css">
 
@@ -162,9 +163,9 @@
     <!-- section one  end-->
 
     <!-- about section start -->
-    <section>
+    <section class="">
         <div class="container d-lg-flex flex-row border-bottom pb-5">
-            <div class="col-lg-6 col-sm-12 text-white ">
+            <div class="col-lg-6 col-sm-12 text-white animate__animated  animate__backInDown animate__delay-0.3s ">
                 <h3 class="fw-bold fs-2 about-h3">Our Culinary Journey</h3>
                 <p class="fst-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim
                     in eros elementum tristique.</p>
@@ -184,7 +185,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 col-sm-12 position-relative about-content-col  px-4  ">
+            <div
+                class="col-lg-6 col-sm-12 position-relative about-content-col  px-4 animate__animated  animate__backInRight animate__delay-0.3s ">
                 <img class="position-relative about-image-1" src="./assets/images/about-images/about_us_1.jpg" alt="hd">
                 <img class="d-none d-md-block about-image-2 " src="./assets/images/about-images/about_us_2.jpg"
                     alt="dds">
@@ -195,7 +197,7 @@
     </section>
     <!-- about us end -->
     <!-- features start -->
-    <section>
+    <section class="feature-scroll">
         <div class="container d-lg-flex text-center text-white ">
             <div class="col-lg-3  features-div">
                 <div>
@@ -912,7 +914,7 @@
     </section>
     <!-- moments section end -->
     <!-- upcoming features events -->
-    <section>
+    <section class="features-scroll">
         <div class="container">
             <div class=" position-relative row text-center features-event">
                 <h1>Upcoming Featured Events</h1>
@@ -1159,6 +1161,7 @@
 
     <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
     <script src="script.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
 
     </script>
 </body>

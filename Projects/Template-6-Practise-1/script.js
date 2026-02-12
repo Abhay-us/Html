@@ -51,4 +51,9 @@ $(document).ready(function () {
     $(".menu-select li").removeClass("active");
     $(this).addClass("active");
   });
+
+  // ScrollReveal().reveal(".features-scroll", { delay: 500 });
+  // ScrollReveal().reveal(".journey-scroll", { delay: 500 });
+
+  //  ScrollReveal().reveal(".feature-scroll", { delay: 500 });
 });

@@ -94,7 +94,6 @@ function validateForm() {
       "Gender: " +
       gender +
       "\n";
-
     if (hobbies.length) {
       data += "Hobbies: " + hobbies.join(", ");
     }
