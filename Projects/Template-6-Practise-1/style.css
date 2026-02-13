@@ -32,17 +32,22 @@ span {
   font-family: "Libre Baskerville", serif;
 }
 
-.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-prev ,
 .owl-carousel .owl-nav button.owl-next {
-  padding: 0 13px 2px 12px !important;
+  height: 70px;
+  width: 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
   font-weight: 100;
-  font-size: 70px;
+  font-size: 80px;
   background: #58565648;
   border-radius: 100%;
   position: absolute;
   z-index: 10;
   top: 50%;
-  line-height: 3.2rem;
+  padding-top: -2px;
 }
 .owl-carousel .owl-nav button.owl-prev {
   left: 0px;
@@ -59,7 +64,9 @@ span {
   background-color: #ceaf7f;
   transition: all 0.3s ease;
 }
-
+.owl-next span{
+transform: translateY(-5px);
+}
 section {
   padding-top: 120px;
   padding-bottom: 60px;
